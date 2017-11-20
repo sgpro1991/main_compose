@@ -1,0 +1,302 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+.doctors .item {
+    width: 230px;
+    margin: 25px;
+}
+
+.vc_row-fluid, .wpb_content_element {
+    margin-bottom: 40px;
+}
+
+</style>
+
+
+<br>
+<div style="background:#fff;padding: 20px;margin: 0 auto 20px;max-width:1210px">
+<div class="grid-row">
+
+
+{{ flatpage.content }}
+
+
+<section class="widget widget-appointment">
+
+				<form action="/form/online/" method="POST" name="contactform">
+                                {% csrf_token %}
+                                <fieldset>
+								<div class="row">
+									<input type="text" name="nameOnline" placeholder="имя" required>
+									<i class="fa fa-user"></i>
+								</div>
+								<div class="row">
+									<input type="tel" name="phoneOnline" placeholder="телефонный номер">
+									<i class="fa fa-phone"></i>
+								</div>
+								<div class="row">
+									<input type="email" name="emailOnline" placeholder="электронная почта" required>
+									<i class="fa fa-envelope"></i>
+								</div>
+								<div class="row">
+									<input type="text" name="dateOnline" placeholder="Дата назначение" id="datepicker">
+									<i class="fa fa-calendar2"></i>
+								</div>
+                                <div class="row">
+									<select name="dayOnline">
+                                        <option value="Первичный прием">Первичный прием</option>
+                                        <option value="Повторный прием">Повторный прием</option>
+                                    </select>
+									<i class="fa fa-question"></i>
+								</div>
+								<div class="row">
+									<textarea cols="30" rows="5" name="messageOnline" placeholder="Сообщение"></textarea>
+									<i class="fa fa-align-left"></i>
+								</div>
+			 					<div class="row">
+								<input type="checkbox" required="" style="float:left" id="foo_baz"><label style="margin:18px 25px;" for="foo_baz">Согласен на обработку персональных данных <a href="/personal-data/">подробнее...</a> </label>
+								</div>
+								<button type="submit" name="submit" class="button" value="Submit">Отправить</button>
+
+                         </fieldset>
+							</form>
+
+
+
+              <div class="col-xs-12 col-sm-12 col-md-12" style="margin:50px 0 0 0;padding:0;">
+                <div class="widget-title">КОНТАКТЫ</div>
+
+                <div class="box_contacts">
+              	 <a href="/contacts.html/"><div class="col-xs-12 col-sm-6 col-md-3 button сontact_online" >Екатеринбург</div></a>
+                 <a href="/kurgan.html/"><div class="col-xs-12 col-sm-6 col-md-3 button сontact_online" >Курган</div></a>
+    	           <a href="/magnitogorsk.html/"><div class="col-xs-12 col-sm-6 col-md-3 button сontact_online" >Магнитогорск</div></a>
+                 <a href="/chelyabinsk.html/"><div class="col-xs-12 col-sm-6 col-md-3 button сontact_online" >Челябинск</div></a>
+
+<div class="col-xs-12 col-sm-12 col-md-3 " style="    text-align: center;
+    background: #008fd5;
+    color: #fff;
+    border-radius: 10px;
+    padding: 21px;
+    margin: 5px 0;
+        min-height: 210px;
+    border: 6px solid #fff;
+    font-size: 17px;">
+  <ul>
+    <li>г.Екатеринбург<br></li>
+    <li>ул.Начдива<br>Васильева, 1/3</li>
+    <li>тел. (343) 237-1-999<br><br></li>
+    <li>cfm@cfm.ru</li>
+  </ul>
+</div>
+
+
+
+<div class="col-xs-12 col-sm-12 col-md-3 " style="    text-align: center;
+    background: #008fd5;
+    color: #fff;
+    border-radius: 10px;
+    padding: 21px;
+    margin: 5px 0;
+        min-height: 210px;
+    border: 6px solid #fff;
+    font-size: 17px;">
+  <ul>
+    <li>г.Курган<br></li>
+    <li>ул. Карбышева, 39 </li>
+    <li>тел: (3522) 657-999<br><br></li>
+    <li>kurgan_cfm@cfm.ru</li>
+  </ul>
+</div>
+
+
+
+<div class="col-xs-12 col-sm-12 col-md-3 " style="    text-align: center;
+    background: #008fd5;
+    color: #fff;
+    border-radius: 10px;
+    padding: 21px;
+        min-height: 210px;
+    margin: 5px 0;
+    border: 6px solid #fff;
+    font-size: 17px;">
+  <ul>
+    <li>г.Магнитогорск<br></li>
+    <li>ул. Фрунзе,7 </li>
+    <li>тел: (3519) 380-999<br><br></li>
+    <li>magnit_cfm@cfm.ru</li>
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="col-xs-12 col-sm-12 col-md-3 " style="    text-align: center;
+    background: #008fd5;
+    color: #fff;
+    border-radius: 10px;
+    padding: 21px;
+    margin: 5px 0;
+        min-height: 210px;
+    border: 6px solid #fff;
+    font-size: 17px;">
+  <ul>
+    <li>г.Челябинск<br></li>
+    <li>ул.Логовая,13 </li>
+    <li>тел: (351) 240-1-999<br><br></li>
+    <li>chel@cfm.ru</li>
+  </ul>
+</div>
+
+
+
+
+
+               </div>
+
+                 <style>
+                 .сontact_online{
+                   border: 3px solid #fff;
+                   text-align: center;
+                 }
+
+                 .сontact_online:hover{
+                  border: 3px solid #008fd5;
+                 }
+                 </style>
+
+
+							<div class="col-xs-12 col-sm-12 col-md-12" style="margin:50px 0 0 0;padding:0;">
+
+
+
+							<a href="/testimonials/"><div class="widget-title">ОТЗЫВЫ</div></a>
+							<div class="item">
+								<ul id="testimonials_ul"></ul>
+							</div>
+
+
+
+
+
+
+							<div class="col-xs-12 col-sm-12 col-md-12" style="margin:50px 0 0 0;padding:0;">
+							      <a href="/doctors.html/"><div class="widget-title">НАШИ СПЕЦИАЛИСТЫ</div></a>
+							<div id="doctors" class="doctors">
+							</div>
+							</div>
+
+	</section>
+
+
+	 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+         <script type="text/javascript" src="/static/js/moment.js"></script>
+         <script type="text/javascript" src="/static/js/pikaday.js"></script>
+        <script type="text/javascript" src="/static/js/pikaday.jquery.js"></script>
+    <script>
+
+
+
+    var $datepicker = $('#datepicker').pikaday({
+        firstDay: 1,
+        minDate: moment().add('d', 2).toDate(),
+        maxDate: new Date('2020-12-31'),
+        yearRange: [2000,2020]
+    });
+    // chain a few methods for the first datepicker, jQuery style!
+
+
+
+
+    </script>
+
+
+
+
+
+</div>
+</div>
+
+
+<script>
+$(document).ready(function(){
+
+
+	$.ajax({
+		url:'/get_doc/politics/',
+		dataType:'json',
+		success:function(data){
+			$.each(data,function(k,v){
+				$('#doctors').append('<div class="item item1 isotope-item" ><div class="pic">'+
+								'<img src="/media/'+v['image']+'" alt="Doctor 1">'+
+							'<div class="links">'+
+							'<!--  <a href="/doctors.html/#'+v['id']+'" >'+
+							'    <img src="'+v['image']+'" alt="Doctor 1">'+
+							'  </a>-->'+
+							'  <ul>'+
+							'    <li><a href="/doctors.html/#'+v['id']+'" class="fa fa-info"></a></li>'+
+							'      <li><a href="/comment/'+v['id']+'/" class="fa fa-comment"></a></li>'+
+							'  </ul>'+
+						'  </div>'+
+						'</div><h3>'+v['name']+'</h3><p style="font-size:12px;font-weight:bold;letter-spacing:0.5px;">'+v['work']+'</p></div>')
+			})
+
+		}
+	})
+
+
+
+
+	$.ajax({
+		url:'/get_testimonials/',
+		dataType:'json',
+		success:function(data){
+			$.each(data,function(k,v){
+				$('#testimonials_ul').append('<li class="item_li">'+
+            '<div class="wpb_content_element">'+
+              '<div class="testimonial testimonial-alt">'+
+                '<p>'+v['text']+'</p>'+
+                '<div class="author">'+v['name']+' </div>'+
+              '</div>'+
+            '</div>'+
+        '</li>')
+			})
+
+		}
+	})
+
+
+
+
+
+
+
+			$(window).load(function(){
+
+
+  			$('.ui-state-default').each(function(){
+  				$(this).removeClass('ui-tabs-active');
+  			})
+
+
+  			var url = location.href;
+  			var init = url.match( /.$/ );
+
+  			var t = '#ui-id-'+init[0];
+
+  			$( ".wpb_tabs" ).tabs({
+  			  active: init,
+   			  activate: function( event, ui ) {
+
+  					location.hash=ui.newTab.index();
+  			  }
+  			});
+
+			     var a = $('#ui-id-5').parent().attr('class');
+			})
+	   })
+</script>
+
+{% endblock %}

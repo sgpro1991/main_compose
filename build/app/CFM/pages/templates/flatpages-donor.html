@@ -1,0 +1,257 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+<div style="background:#fff;padding: 20px;margin: 0 auto 20px;max-width:1210px">
+<div class="grid-row">
+	<main class="page-content vc_responsive">
+
+
+	{{ flatpage.content }}
+
+</main>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<style>
+iframe{
+	/*width:100% !important;*/
+	margin: 0 auto;
+	float: left;
+	/*min-height: 500px !important;*/
+}
+
+.center-columns {
+	font-size: 0;
+}
+.center-columns .column {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.center-columns .column .wrapper {
+	font-size: 14px;
+	padding: 0 15px;
+}
+.center-columns .left-column {
+	text-align: right;
+}
+.center-columns .right-column {
+	text-align: left;
+}
+.tezis-list {
+	list-style: none;
+	color: white-blue;
+	color: #008fd5;
+	font-size: 18px;
+}
+ul.list, ol.list {
+	padding: 0;
+	list-style: none;
+}
+
+ul.list li ul,
+ul.list li ol,
+ol.list li ul,
+ol.list li ol {
+	/*padding-left: 15px;*/
+}
+ul.num-list,
+ol.num-list {
+	list-style: decimal;
+}
+.char-list {
+
+}
+h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title,
+h6.title {
+	color: #008fd5;
+	font-size: 18px;
+}
+h2.title {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+div.table {
+	width: 100%;
+	margin-bottom: 30px;
+}
+div.table div.t-row {
+	font-size: 0;
+}
+div.table div.t-row div.t-th,
+div.table div.t-row div.t-td {
+	display: inline-block;
+	font-size: 14px;
+	min-height: 1px;
+	min-height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	color: #000;
+	border-right: 1px solid #000;
+	box-sizing: border-box;
+	padding: 0 5px;
+}
+div.table div.t-row {
+	border-bottom: 1px solid #000;
+}
+div.table div.t-row div.t-th:first-child,
+div.table div.t-row div.t-td:first-child {
+	border-left: 1px solid #000;
+}
+div.table div.t-row:nth-child(2n) ,
+div.table div.t-row:nth-child(2n)  {
+	background: rgb(222, 234, 246);
+}
+div.table div.t-row:nth-child(2n+3) ,
+div.table div.t-row:nth-child(2n+3)  {
+	background: #fff;
+}
+/**/
+div.table div.t-row div.t-th {
+	color: #fff;
+	background: rgb(91, 155, 213);
+	text-align: center;
+
+}
+div.table div.t-row,
+div.table div.t-row div.t-th,
+div.table div.t-row div.t-td,
+div.table div.t-row div.t-th:first-child,
+div.table div.t-row div.t-td:first-child {
+	border-color: rgb(91, 155, 213);
+}
+div.table div.t-row div.t-th.value,
+div.table div.t-row div.t-td.value {
+	text-align: center;
+	width: 40%;
+}
+div.table div.t-row div.t-th.name,
+div.table div.t-row div.t-td.name {
+	width: 60%;
+}
+div.table.columns-4 div.t-th,
+div.table.columns-4 div.t-td {
+	width: 25%;
+}
+div.table.columns-5 div.t-th,
+div.table.columns-5 div.t-td {
+	width: 20%;
+}
+.btn {
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 30px;
+
+}
+.btn-blue {
+	background: rgb(91, 155, 213);
+	border: 1px solid #ccc;
+	color: #fff;
+}
+.wantdonor {
+	margin: 0 auto;
+}
+span.important {
+	color: rgb(0, 112, 192);
+}
+.text-center {
+	text-align: center;
+}
+.text-acro {
+	border-top: 1px solid rgb(91, 155, 213);
+	border-bottom: 1px solid rgb(91, 155, 213);
+	padding: 15px 0;
+	color: rgb(91, 155, 213);
+}
+.text-acro p {
+	margin: 0;
+}
+
+section.stepview {
+	position: relative;
+}
+section.stepview>div.block {
+	background: rgb(91, 155, 213);
+	border-radius: 15px;
+	color: #fff;
+	width: 40%;
+
+}
+section.stepview>div.block>div.wrapper {
+	padding: 5px;
+}
+section.stepview div.arrow {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	width: 60%;
+}
+section.stepview div.arrow>div.wrapper {
+	background: rgb(222, 235, 247);
+	padding: 5px 0;
+	margin: -5px 80px -5px 0;
+}
+section.stepview .triangle-right {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 0 50px 50px;
+	border-color: transparent transparent transparent rgb(222, 235, 247);
+	line-height: 0px;
+	_border-color: #000000 #000000 #000000 rgb(222, 235, 247);
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+</style>
+
+
+
+
+<script>
+$(document).ready(function(){
+
+			$(window).load(function(){
+  			$('.ui-state-default').each(function(){
+  				$(this).removeClass('ui-tabs-active');
+  			})
+
+  			var url = location.href;
+  			var init = url.match( /.$/ );
+
+  			var t = '#ui-id-'+init[0];
+
+  			$( ".wpb_tabs" ).tabs({
+  			  active: init,
+   			  activate: function( event, ui ) {
+
+  					location.hash=ui.newTab.index();
+  			  }
+  			});
+
+			     var a = $('#ui-id-5').parent().attr('class');
+			})
+	   })
+</script>
+
+{% endblock %}

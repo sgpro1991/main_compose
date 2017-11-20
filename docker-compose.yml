@@ -1,0 +1,40 @@
+version: "3"
+
+networks:
+  common:
+
+
+services:
+  nginx-cfm:
+    image: nginx:latest
+    #restart: always
+    networks:
+      - common
+    #environment:
+    #  - VIRTUAL_HOST=drescode.com,www.drescode.com
+    depends_on:
+      - web-cfm
+    volumes:
+      - "./build/nginx/nginx.conf:/etc/nginx/nginx.conf"
+      - "./build/nginx/uwsgi_params:/etc/nginx/uwsgi_params"
+      - "./build/nginx/conf.d:/etc/nginx/conf.d"
+      - "./build/app/CFM/static:/app/static:ro"
+      - "./build/app/CFM/media:/app/media:ro"
+    ports:
+      - 3535:80
+  web-cfm:
+    build:
+      context: ./build/
+    networks:
+      - common
+    depends_on:
+      - db-cfm
+
+  db-cfm:
+    image: postgres:latest
+    environment:
+      - POSTGRES_PASSWORD=hesoyam
+      - POSTGRES_USER=sgpro1991
+      - POSTGRES_DB=CFM
+    networks:
+      - common

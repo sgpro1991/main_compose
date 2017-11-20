@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% block content %}
+<style>
+
+.doctors .item{
+  width: 230px;
+  margin: 25px;
+}
+
+</style>
+<br>
+<div style="background:#fff;padding: 20px;margin: 0 auto 20px;max-width:1210px">
+<div class="grid-row">
+<main class="page-content vc_responsive">
+    {{content.content|safe}}
+
+    <div class="row" style="    width: 72%;
+        margin: 0 auto;">
+    {% include "crumbs/table.html" %}
+  </div>
+<div class="col-xs-12 col-sm-12 col-md-12" style="margin:50px 0 0 0;">
+      <div class="widget-title">СПЕЦИАЛИСТЫ ПО ЛЕЧЕНИЮ ЖЕНСКОГО БЕСПЛОДИЯ</div>
+<div class="doctors" id="doctors">&nbsp;</div>
+
+
+
+
+
+
+<div class="col-xs-12 col-sm-12 col-md-12" style="margin:50px 0 0 0;"></div>
+<div class="col-xs-12 col-sm-12 col-md-6">
+<h2 style="text-align: right; font-size: 24px; color: rgb(0,143,213,0.9);"><span style="font-size:18px;"><span style="color:#008fd5;"><span>РОЖДЕНИЕ ДЕТЕЙ МОЖНО</span></span></h2>
+
+<h2 style="text-align: right; font-size: 24px; color: rgb(0,143,213,0.9);"><span style="font-size:18px;"><span style="color:#008fd5;"><span>ДОВЕРИТЬ НАМ</span></span></h2>
+
+<h2 style="text-align: right; font-size: 24px; color: rgb(0,143,213,0.9);"><span style="font-size:18px;"><span style="color:#008fd5;"><span>самые современные методы лечения </strong></span></span></h2>
+
+<h2 style="text-align: right;margin:5px 0;font-size: 20px;color: #4db1e2;"><span style="font-size:18px;"><span style="color:#008fd5;">хирургическое лечение женского и мужского бесплодия </span></span></h2>
+
+<h2 style="text-align: right;margin:5px 0;font-size: 20px;color: #4db1e2;"><span style="font-size:18px;"><span style="color:#008fd5;">самые современные методы лечения </span></span></h2>
+
+<h2 style="text-align: right;margin:5px 0;font-size: 20px;color: #4db1e2;"><span style="font-size:18px;"><span style="color:#008fd5;">применение всех известных методов вспомогательной репродукции</span></span></h2>
+
+<h2 style="text-align: right;margin:5px 0;
+    font-size: 20px;
+    color: #4db1e2;"><span style="font-size:22px;"><span style="color:#008fd5;">ЭКО по ОМС</span></span></h2>
+
+<h2 style="text-align: right;margin:5px 0;
+    font-size: 20px;
+    color: #4db1e2;"><span style="font-size:18px;"><span style="color:#008fd5;">абсолютная преемственности между специалистами </span></span></h2>
+
+<h2 style="text-align: right;margin:5px 0;
+    font-size: 20px;
+    color: #4db1e2;"><span style="font-size:18px;"><span style="font-size:22px;"><span style="color:#008fd5;">особое бережное отношение</span></span></span></h2>
+
+<h2 style="text-align: right;margin:5px 0;
+    font-size: 20px;
+    color: #4db1e2;"><span style="font-size:18px;"><span style="color:#008fd5;">эффективность программ ЭКО </span></span><span style="font-size:22px;"><span style="color:#008fd5;">более 40 %</span></span></h2>
+
+<h2 style="text-align: right;margin:5px 0;
+    font-size: 20px;
+    color: #4db1e2;"><span style="font-size:18px;"><span style="color:#008fd5;">опыт лечения бесплодия </span></span><span style="font-size:22px;"> <span style="color:#008fd5;"> более 16 лет</span></span></h2>
+
+<p>&nbsp;</p>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6"><img alt="" src="/media/uploads/2017/07/14/cook_family.jpg" style="width:100%"></div>
+
+</div>
+
+
+<div class="col-xs-12 col-sm-12 col-md-12" style="margin: 25px 0;    text-align: center;">
+<p><a href="/online.html/"><span class="button" type="submit" value="Submit">Сделайте первый шаг! <br>Запишитесь на прием сегодня</span></a></p>
+</div>
+
+</main>
+</div>
+</div>
+<script>
+
+$(document).ready(function(){
+
+  $.ajax({
+    url:'/get_doc/female/',
+    dataType:'json',
+    success:function(data){
+      $.each(data,function(k,v){
+
+        $('#doctors').append('<div class="item item1 isotope-item" ><div class="pic">'+
+                '<img src="/media/'+v['image']+'" alt="Doctor 1">'+
+              '<div class="links">'+
+              '<!--  <a href="/doctors.html/#'+v['id']+'" >'+
+              '    <img src="'+v['image']+'" alt="Doctor 1">'+
+              '  </a>-->'+
+              '  <ul>'+
+              '    <li><a href="/doctors.html/#'+v['id']+'" class="fa fa-info"></a></li>'+
+              '      <li><a href="/comment/'+v['id']+'/" class="fa fa-comment"></a></li>'+
+              '  </ul>'+
+            '  </div>'+
+            '</div><h3>'+v['name']+'</h3><p style="font-size:12px;font-weight:bold;letter-spacing:0.5px;">'+v['work']+'</p></div>')
+      })
+
+    }
+  })
+
+})
+</script>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<br>
+<div style="background:#fff;padding: 20px;margin: 0 auto 20px;max-width:1210px">
+<div class="grid-row">
+  <a href="/blog/"><div class="widget-title">Блог</div></a>
+
+  <h2 style="font-size:25px;font-weight:lighter">{{state.title}}</h2><br>
+  {{state.text|safe}}
+</div>
+</div>
+
+
+
+
+{% endblock %}

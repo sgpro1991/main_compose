@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+<div style="background:#fff;padding: 20px;margin: 0 auto 20px;max-width:1210px">
+<div class="grid-row">
+  <div class="widget-title">Блог</div>
+{% for a in state %}
+<div class="col-xs-12 col-sm-4 col-md-4">
+							  <div class="item news" style="">
+                    {% if a.image %}
+							   	  <img src="/media/{{a.image}}">
+                    {% endif %}
+									  <h3 style="font-size:20px;color:#444;">{{a.title}}</h3>
+									  <div><span class="glyphicon glyphicon-time"> </span> {{a.date}} <!--<span class="glyphicon glyphicon-tag"></span>{{a.rubric}}--></div>
+
+		                <div class="addnews">
+		    				      <p class="summary"></p>
+		    						</div>
+                    <hr style="border-top:1px solid #ccc"></hr>
+								    <p style="padding: 10px;color: #555;">{{a.description}}</p>
+                    <a href="/blog/state/{{a.id}}/"><button class="btn btn-primary">Читать далее</button></a>
+		          </div>
+				</div>
+
+{% endfor%}
+</div>
+</div>
+
+{% endblock %}

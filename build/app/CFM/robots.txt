@@ -1,0 +1,8 @@
+User-Agent: Yandex
+Disallow: /admin/
+
+User-Agent: *
+Disallow: /admin/
+
+Sitemap: https://www.cfm.ru/sitemap.xml
+Host: https://www.cfm.ru
