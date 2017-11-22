@@ -18,15 +18,18 @@ services:
       - "./build/nginx/nginx.conf:/etc/nginx/nginx.conf"
       - "./build/nginx/uwsgi_params:/etc/nginx/uwsgi_params"
       - "./build/nginx/conf.d:/etc/nginx/conf.d"
-      - "./build/app/CFM/static:/app/static:ro"
-      - "./build/app/CFM/media:/app/media:ro"
+      - "./build/app/CFM/static:/app/static:rw"
+      - "./build/app/CFM/media:/app/media:rw"
     ports:
-      - 3535:80
+      - 3131:80
   web-cfm:
     build:
       context: ./build/
     networks:
       - common
+    volumes:
+      - "./build/app/CFM/static:/app/static:rw"
+      - "./build/app/CFM/media:/app/media:rw"
     depends_on:
       - db-cfm
 
