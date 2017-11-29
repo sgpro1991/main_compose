@@ -7530,16 +7530,26 @@ i.appointment{
 /* top link */
 /**/
 .top-link {
-	position: absolute;
+
+  position: fixed;
+  z-index: 999;
+  bottom: 24px;
+  color: #fff !important;
+  background: #008fd5;
 	right: 20px;
-	bottom: 100%;
 	width: 44px;
 	height: 44px;
-	background: #213540;
 	font-size: 24px;
 	line-height: 44px;
 	text-align: center;
-	color: #fff;
+}
+
+.top-link a:focus,.top-link a:active{
+  color: #fff;
+}
+
+.top-link a:link{
+  color: #fff;
 }
 
 
