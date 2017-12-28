@@ -20,6 +20,8 @@ services:
       - "./build/nginx/conf.d:/etc/nginx/conf.d"
       - "./build/app/CFM/static:/app/static:rw"
       - "./build/app/CFM/media:/app/media:rw"
+      - "./build/app/CFM/robots.txt:/app/robots.txt"
+      - "./build/app/CFM/sitemap.xml:/app/sitemap.xml"
     ports:
       - 3131:80
   web-cfm:
