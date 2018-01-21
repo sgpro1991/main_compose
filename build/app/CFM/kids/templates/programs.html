@@ -1,17 +1,18 @@
 {% extends 'base-kids.html' %}
 {% block content %}
 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
 <main class="page-content vc_responsive">
 <br>
 <br>
 <br>
 <div class="grid-row">
 <div class="widget-title">Программы</div>
+
 {% for a in programs %}
 <section class="detailed-services wpb_content_element">
 <dl>
-	<dt class="closed"><em><em>{{a.title}}</em></em></dt>
+	<dt class="closed" data-index="{{forloop.counter}}"><em><em>{{a.title}}</em></em></dt>
 	<dd style="margin:0px">
 	<div class="row grid-row" >
     <div  style="padding:20px;">
@@ -23,6 +24,63 @@
 </section>
 {% endfor %}
 </div>
+
+
+
+<script>
+$(document).ready(function(){
+
+
+$('.closed').click(function(){
+		location.hash='#'+$(this).attr('data-index');
+})
+
+
+			$(window).load(function(){
+
+				var url = location.href;
+				var init = url.match( /.$/ );
+
+				$('.closed').each(function(){
+
+
+					console.log(init)
+					if($(this).attr('data-index') == init){
+						$(this).click()
+
+					}
+
+
+
+				})
+
+
+				/*
+  			$('.ui-state-default').each(function(){
+  				$(this).removeClass('ui-tabs-active');
+  			})
+
+  			var url = location.href;
+  			var init = url.match( /.$/ );
+
+  			var t = '#ui-id-'+init[0];
+
+  			$( ".wpb_tabs" ).tabs({
+  			  active: init,
+   			  activate: function( event, ui ) {
+
+  					location.hash=ui.newTab.index();
+  			  }
+  			});
+
+			     var a = $('#ui-id-5').parent().attr('class');
+
+					 */
+
+			})
+	   })
+</script>
+
 
 </main>
 
