@@ -18,6 +18,9 @@ from .template_mail import TmpMail
 
 import json
 
+import urllib
+
+
 
 def GetDocMale(request):
     mass=[]
@@ -439,6 +442,29 @@ def SendEmailForm(request):
 
 
 def FormFaq(request):
+    ''' Begin reCAPTCHA validation '''
+    recaptcha_response = request.POST.get('g-recaptcha-response')
+    url = 'https://www.google.com/recaptcha/api/siteverify'
+    values = {
+        'secret': "6LdayAoTAAAAACkKRJGe-oVrJeXoxukmHCnue29T",
+        'response': recaptcha_response
+    }
+    data = urllib.parse.urlencode(values).encode()
+    req =  urllib.request.Request(url, data=data)
+    response = urllib.request.urlopen(req)
+    result = json.loads(response.read().decode())
+    ''' End reCAPTCHA validation '''
+
+    print(result,"=========================================================")
+
+
+    if result['success']:
+        pass
+    else:
+        return redirect('/questions.html/')
+
+
+
     name = request.POST['nameOnline']
     city = request.POST.get('cityOnline',False)
     message = request.POST['messageOnline']
@@ -464,6 +490,29 @@ def FormFaq(request):
 
 
 def FormOnline(request):
+
+    ''' Begin reCAPTCHA validation '''
+    recaptcha_response = request.POST.get('g-recaptcha-response')
+    url = 'https://www.google.com/recaptcha/api/siteverify'
+    values = {
+        'secret': "6LdayAoTAAAAACkKRJGe-oVrJeXoxukmHCnue29T",
+        'response': recaptcha_response
+    }
+    data = urllib.parse.urlencode(values).encode()
+    req =  urllib.request.Request(url, data=data)
+    response = urllib.request.urlopen(req)
+    result = json.loads(response.read().decode())
+    ''' End reCAPTCHA validation '''
+
+    print(result,"=========================================================")
+
+    if result['success']:
+        pass
+    else:
+        return redirect('/online.html/')
+
+
+
     name = request.POST['nameOnline']
     phone = request.POST['phoneOnline']
     post = request.POST['emailOnline']
@@ -534,12 +583,38 @@ def YandexVert(request):
 
 
 
+
+
 def FormCommunicate(request):
+
+    ''' Begin reCAPTCHA validation '''
+    recaptcha_response = request.POST.get('g-recaptcha-response')
+    url = 'https://www.google.com/recaptcha/api/siteverify'
+    values = {
+        'secret': "6LdayAoTAAAAACkKRJGe-oVrJeXoxukmHCnue29T",
+        'response': recaptcha_response
+    }
+    data = urllib.parse.urlencode(values).encode()
+    req =  urllib.request.Request(url, data=data)
+    response = urllib.request.urlopen(req)
+    result = json.loads(response.read().decode())
+    ''' End reCAPTCHA validation '''
+
+    print(result,"=========================================================")
+
+    if result['success']:
+        pass
+    else:
+        return redirect('/contacts.html/')
+
+
     name = request.POST['nameOnline']
     phone = request.POST['phoneOnline']
     city = request.POST.get('cityOnline',False)
     message = request.POST['messageOnline']
     post  = request.POST['emailOnline']
+
+
 
 
 

@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 <br>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <div style="background:#fff;padding: 20px;margin: 0 auto 20px;max-width:1210px">
 <div class="grid-row">
 {{ flatpage.content }}
@@ -14,7 +15,8 @@ width:100% !important;
 
 <div class="widget-title">Связаться с Нами</div>
 
-<form action="/form/communication/" method="POST" name="contactform">
+<script src="/static/js/A_capcha.js"></script>
+<form action="/form/communication/" method="POST" class="form_main"  name="contactform">
 
 	                  {% csrf_token %}
 								<fieldset>
@@ -51,7 +53,8 @@ width:100% !important;
 										<input type="checkbox" required="" style="float:left;margin: 21px 0;" id="foo_baz"><label style="margin:18px 25px;" for="foo_baz">Согласен на обработку персональных данных <a href="/personal-data/">подробнее...</a> </label>
 
 										</div>
-										<button type="submit" class="button" value="Submit">Отправить</button>
+										<div class="g-recaptcha" data-sitekey="6LdayAoTAAAAADYA_56ueMMcmPGGc5I14d32rd3l"></div>
+    										<button type="submit" class="button" value="Submit">Отправить</button>
 										<br>
 										<br>
 								</fieldset>
@@ -64,6 +67,14 @@ width:100% !important;
 
 <script>
 $(document).ready(function(){
+
+
+
+
+
+
+
+
 
 
 			$(window).load(function(){
