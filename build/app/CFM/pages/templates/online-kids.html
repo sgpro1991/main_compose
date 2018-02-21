@@ -1,6 +1,8 @@
 {% extends 'base-kids.html' %}
 {% block content %}
 
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
 <style>
 .doctors .item {
     width: 230px;
@@ -57,6 +59,8 @@
 			 					<div class="row">
 								<input type="checkbox" required="" style="float:left" id="foo_baz"><label style="margin:18px 25px;" for="foo_baz">Согласен на обработку персональных данных <a href="/personal-data/">подробнее...</a> </label>
 								</div>
+					<div class="g-recaptcha" data-sitekey="6LdayAoTAAAAADYA_56ueMMcmPGGc5I14d32rd3l"></div>
+
 								<button type="submit" name="submit" class="button" value="Submit">Отправить</button>
 
                          </fieldset>
