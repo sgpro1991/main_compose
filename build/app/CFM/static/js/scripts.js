@@ -1,6 +1,41 @@
 	$(document).ready(function (){
 
 
+		//alert($('#recaptcha-anchor').is( ":checked" ))
+
+
+		$('#form_main').submit(function(e){
+
+
+			var response = grecaptcha.getResponse();
+
+			if(response != ''){
+
+			}else{
+				$('#capcha-checker').css({'box-shadow': '0px 0px 0px 3px #f00','width':'302px'})
+				e.preventDefault()
+			}
+
+		})
+
+
+		$("#phone_mask").mask("+7 999-999-9999");
+
+
+	  $("#phone_mask").on("blur", function() {
+	      var last = $(this).val().substr( $(this).val().indexOf("-") + 1 );
+
+	      if( last.length == 5 ) {
+	          var move = $(this).val().substr( $(this).val().indexOf("-") + 1, 1 );
+
+	          var lastfour = last.substr(1,4);
+
+	          var first = $(this).val().substr( 0, 9 );
+
+	          $(this).val( first + move + '-' + lastfour );
+	      }
+	  });
+
 
 
 
@@ -733,7 +768,7 @@ $(window).load(function()
 	/**/
 	/* page */
 	/**/
-	$(".page").addClass('loaded');
+	//$(".page").addClass('loaded');
 
 
 	/**/

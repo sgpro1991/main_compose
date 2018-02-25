@@ -1,0 +1,18 @@
+FROM python:3.6
+
+# Set timezone
+RUN ln -sf /usr/share/zoneinfo/Asia/Yekaterinburg /etc/localtime
+
+# cleaning up
+#RUN apt-get clean -y && rm -rf /var/lib/apt/lists/*
+
+
+ADD conf /conf/
+ADD docker-entrypoint.sh /
+ADD requirements.txt /
+RUN ["pip", "install", "uwsgi"]
+RUN ["pip", "install", "-r", "/requirements.txt"]
+EXPOSE 8000
+
+WORKDIR /app
+ENTRYPOINT ["/docker-entrypoint.sh"]

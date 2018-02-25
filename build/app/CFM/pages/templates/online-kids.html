@@ -34,7 +34,7 @@
 									<i class="fa fa-user"></i>
 								</div>
 								<div class="row">
-									<input type="tel" name="phoneOnline" placeholder="телефонный номер">
+									<input type="tel" id="phone_mask"  name="phoneOnline" placeholder="телефонный номер">
 									<i class="fa fa-phone"></i>
 								</div>
 								<div class="row">
@@ -115,7 +115,14 @@
         firstDay: 1,
         minDate: moment().add('d', 2).toDate(),
         maxDate: new Date('2020-12-31'),
-        yearRange: [2000,2020]
+        yearRange: [2000,2020],
+        i18n: {
+        previousMonth : 'Пред Месяц',
+        nextMonth     : 'След Месяц',
+        months        : ['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+        weekdays      : ['Воскресенье','Понедельник','Вторник','Среда','Четверг','Пятница','Суббота'],
+        weekdaysShort : ['Вс','Пн','Вт','Ср','Чт','Пт','Сб']
+    }
     });
     // chain a few methods for the first datepicker, jQuery style!
 
@@ -195,7 +202,7 @@ $(document).ready(function(){
 
   			var url = location.href;
   			var init = url.match( /.$/ );
-
+#datepicker
   			var t = '#ui-id-'+init[0];
 
   			$( ".wpb_tabs" ).tabs({

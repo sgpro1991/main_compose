@@ -7,14 +7,14 @@
 <br>
 
     {% for a in news %}
-        <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-4 item-news-main">
         <a href="/stock/{{a.id}}/">
-					  <div class="item news" style="">
+					  <div class="item news item-news-main" style="">
 							{% if a.image %}
 					   	<img src="/media/{{a.image}}" />
 							{% endif %}
 							  <h3 style="font-size:20px;color:#444;">{{a.title}}</h3>
-							  <div class="date">{{a.date|date:"j F Y"}}<span></span></div>
+							  <div class="date date-item-news">{{a.date|date:"j F Y"}}<span></span></div>
 
                 <div class="addnews">
     				      <p class="summary"></p>

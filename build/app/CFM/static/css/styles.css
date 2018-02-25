@@ -981,7 +981,7 @@ a:hover {
 }
 .page {
 	background: #fff;
-	opacity: 0;
+	opacity: 1;
 	-o-transition: opacity 0.4s;
 	-ms-transition: opacity 0.4s;
 	-moz-transition: opacity 0.4s;
@@ -5593,6 +5593,18 @@ iframe{
 
 }
 
+
+
+.item-news-main{
+  position: relative;
+}
+.date-item-news{
+position: absolute !important;
+width: 100%;
+bottom: 0;
+left: 0;
+}
+
 /**/
 /* Site Switcher */
 /**/
@@ -5600,19 +5612,15 @@ iframe{
 .site-switcher{
 	display: inline-block;
 	position: relative;
-	width: 340px;
 	float: left;
 	line-height: 35px;
-	/*vertical-align: middle;*/
-	left: 30px;
+	padding: 2px 5px;
 	margin-top: 3px;
 	margin-left: 35px;
 	color: #FFFFFF;
 
 	vertical-align: middle;
 	border-radius: 10px;
-	padding: 2px;
-
 	transition: background-color 0.5s;
 	-webkit-transition: background-color: 0.5s;
 }

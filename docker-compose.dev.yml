@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  web-cfm:
+    build:
+      context: ./build/
+      dockerfile: Dockerfile-dev
+    volumes:
+      - "./build/app/CFM:/app"
