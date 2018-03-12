@@ -374,6 +374,28 @@ def AboutTesKids(request):
 
 def FormTestimonials(request):
 
+    ''' Begin reCAPTCHA validation '''
+    recaptcha_response = request.POST.get('g-recaptcha-response')
+    url = 'https://www.google.com/recaptcha/api/siteverify'
+    values = {
+        'secret': "6LdayAoTAAAAACkKRJGe-oVrJeXoxukmHCnue29T",
+        'response': recaptcha_response
+    }
+    data = urllib.parse.urlencode(values).encode()
+    req =  urllib.request.Request(url, data=data)
+    response = urllib.request.urlopen(req)
+    result = json.loads(response.read().decode())
+    ''' End reCAPTCHA validation '''
+
+    print(result,"=========================================================")
+
+    if result['success']:
+        pass
+    else:
+        return redirect('/testimonials/')
+
+
+
     name = request.POST.get('name')
     email = request.POST.get('email')
     message = request.POST.get('message')
