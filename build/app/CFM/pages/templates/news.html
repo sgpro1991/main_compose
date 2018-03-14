@@ -9,12 +9,12 @@
 
 			    <div class="col-xs-12 col-sm-12 col-md-4">
 		        <a href="/news/{{a.id}}/">
-							  <div class="item news" style="">
+							  <div class="item news item-news-main" style="">
 									{% if a.image %}
 							   	<img src="/media/{{a.image}}" />
 									{% endif %}
 									  <h3 style="font-size:20px;color:#444;">{{a.title}}</h3>
-									  <div class="date">{{a.date|date:"j F Y "}}<span></span></div>
+									  <div class="date date-item-news">{{a.date|date:"j F Y "}}<span></span></div>
 
 		                <div class="addnews">
 		    				      <p class="summary"></p>
@@ -47,12 +47,12 @@
 						$.each(data,function(k,v){
 						$('#news_box').append('<div class="col-xs-12 col-sm-12 col-md-4">'+
 								        '<a href="/news/'+v['id']+'/">'+
-												'	  <div class="item news" style="">'+
+												'	  <div class="item news item-news-main" style="">'+
 
 												'	   	<img src="/media/'+v['img']+'" />'+
 
 												'			  <h3 style="font-size:20px;color:#444;">'+v['title']+'</h3>'+
-												'			  <div class="date">'+v['date']+'<span></span></div>'+
+												'			  <div class="date date-item-news">'+v['date']+'<span></span></div>'+
 
 								        '      <div class="addnews">'+
 								    		'		      <p class="summary"></p>'+
