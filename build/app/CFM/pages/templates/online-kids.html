@@ -34,7 +34,7 @@
 									<i class="fa fa-user"></i>
 								</div>
 								<div class="row">
-									<input type="tel" id="phone_mask"  name="phoneOnline" placeholder="телефонный номер">
+									<input type="tel" class="phone_mask"  name="phoneOnline" placeholder="телефонный номер">
 									<i class="fa fa-phone"></i>
 								</div>
 								<div class="row">
@@ -111,7 +111,7 @@
 
 
 
-    var $datepicker = $('#datepicker').pikaday({
+    var $datepicker = $('.datepicker').pikaday({
         firstDay: 1,
         minDate: moment().add('d', 2).toDate(),
         maxDate: new Date('2020-12-31'),

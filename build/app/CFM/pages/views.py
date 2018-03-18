@@ -22,6 +22,11 @@ import urllib
 
 
 
+def DocktorsItem(request,sid):
+    doc = Doctors.objects.get(id=sid)
+    return render(request,'doc-item.html',{'doc':doc,'title_seo':doc.name,'keywords_seo':doc.work_extention,'description_seo':doc.work_extention})
+
+
 def GetDocMale(request):
     mass=[]
     doc = Doctors.objects.filter(work='врач уролог')

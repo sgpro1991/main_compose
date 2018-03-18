@@ -15,7 +15,6 @@
 
 
 <br>
-<script src='https://www.google.com/recaptcha/api.js'></script>
 <div style="background:#fff;padding: 20px;margin: 0 auto 20px;max-width:1210px">
 <div class="grid-row">
 
@@ -33,7 +32,7 @@
 									<i class="fa fa-user"></i>
 								</div>
 								<div class="row">
-									<input id="phone_mask" type="tel" name="phoneOnline" placeholder="телефонный номер">
+									<input class="phone_mask" type="tel" name="phoneOnline" placeholder="телефонный номер">
 									<i class="fa fa-phone"></i>
 								</div>
 								<div class="row">
@@ -41,7 +40,7 @@
 									<i class="fa fa-envelope"></i>
 								</div>
 								<div class="row">
-									<input type="text" name="dateOnline" placeholder="Дата назначение" id="datepicker" required>
+									<input type="text" name="dateOnline" placeholder="Дата назначение" class="datepicker" required>
 									<i class="fa fa-calendar2"></i>
 								</div>
                                 <div class="row">
@@ -197,34 +196,7 @@
 	</section>
 
 
-	 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-         <script type="text/javascript" src="/static/js/moment.js"></script>
-         <script type="text/javascript" src="/static/js/pikaday.js"></script>
-        <script type="text/javascript" src="/static/js/pikaday.jquery.js"></script>
-    <script>
 
-
-
-
-
-        var $datepicker = $('#datepicker').pikaday({
-            firstDay: 1,
-            minDate: moment().add('d', 2).toDate(),
-            maxDate: new Date('2020-12-31'),
-            yearRange: [2000,2020],
-            i18n: {
-            previousMonth : 'Пред Месяц',
-            nextMonth     : 'След Месяц',
-            months        : ['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
-            weekdays      : ['Воскресенье','Понедельник','Вторник','Среда','Четверг','Пятница','Суббота'],
-            weekdaysShort : ['Вс','Пн','Вт','Ср','Чт','Пт','Сб']
-        }
-        });
-
-
-
-    </script>
 
 
 

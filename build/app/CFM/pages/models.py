@@ -174,6 +174,7 @@ class Doctors(models.Model):
     work = models.CharField('Специальность', max_length=255)
     work_extention = models.CharField('Расширенная Специальность', blank=True, max_length=255)
     email = models.CharField('Почта', max_length=255 , blank=True)
+    online = models.BooleanField('Можно записаться онлайн', blank=True, default=False)
     city = models.CharField('Город',choices=CITY_CHOICES,max_length=255)
     sortdoc = models.IntegerField('Сортировка', blank=True)
     text  = RichTextUploadingField('Информация о докторе')

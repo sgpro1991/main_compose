@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% block content %}
+        <br>
+
+<style>
+.news .widget-title{
+  text-align: left;
+}
+
+</style>
+
+<!-- Lightbox -->
+<script src="/static/js/lightbox.min.js"></script>
+<link href="/static/css/lightbox.css" rel="stylesheet" />
+<!-- /Lightbox -->
+
+<main class="page-content vc_responsive">
+
+				<div class="grid-row">
+          <div style="background:#fff;padding: 20px;margin: 0 auto 20px;max-width:1210px">
+						<section style="overflow:auto;">
+              <br>
+              <div style="height: auto;border: none;box-shadow: none;">
+              <h1 class="widget-title">{{doc.name}}</h1>
+              </div>
+
+              <section class="widget">
+                  <div class="grid">
+                      <div class="item" style="width:100%">
+                      <a class="anchor" id="1" name="1"></a>
+                        <div class="date" style="font-weight: bold;">{{doc.work_extention}}</div>
+                        <br>
+                        <div class="wrapper-1">
+                          <div class="pic-1">
+
+                            <ul style="max-width:270px;">
+                                <li><a href="/media/{{doc.image3}}" data-lightbox="doctor-{{doc.id}}">
+                                  <img class="doc_img lazy" src="/media/{{doc.image2}}" style="max-width:270px;float:left;margin:0px 25px 0 0;"></a></li>
+                                {% if doc.image4 %}
+                                  <a style="display:none" href="/media/{{doc.image4}}" data-lightbox="doctor-{{doc.id}}"></a>
+                                {% endif %}
+                            </ul>
+                            <div class="links ">
+                              <ul style="display:flex">
+                                  <li class="item-doc-li">
+                                  <a href="/comment/{{doc.id}}/" class="fa fa-comment item-doc" title="Отзывы"></a>
+                                  </li>
+                                  {% if doc.email %}
+                                  <li class="item-doc-li">
+                                    <a href="/send_email/?docemail={{doc.email}}" class="fa fa-envelope item-doc" title="Написать письмо" ></a>
+                                  </li>
+                                  {% endif %}
+                                  {% if doc.online %}
+                                  <li class="item-doc-li">
+                                    <a href="#" class="show-modal-form-online-doc fa fa-calendar2 item-doc" data-init="{{doc.name}}" title="Онлайн запись к этому доктору"></a>
+                                  </li>
+                                  {% endif %}
+                               </ul>
+                            </div>
+                            <br>
+                          </div>
+                        </div>
+                        {{doc.text|safe}}
+                      </div>
+                      <br>
+
+
+                    </div>
+                </section>
+            </section>
+        </div>
+      </div>
+</main>
+<style>
+.item-doc{
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align:center;
+  box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+}
+.item-doc-li a {
+  color: #fff;
+}
+.item-doc-li:hover{
+  opacity: 0.5;
+}
+.item-doc-li{
+  background:#008fd5;
+  width:50px;
+  margin:5px;
+}
+</style>
+
+{% endblock %}

@@ -82,8 +82,14 @@ width:100%;
                   {% if a.email %}
                     <li><a href="/send_email/?docemail={{a.email}}" class="fa fa-envelope"></a></li>
                   {% endif %}
-                  <li><a href="#{{a.id}}" class="fa fa-info"></a></li>
+
+                  <li><a href="/doctors/{{a.id}}/" class="fa fa-info"></a></li>
                     <li><a href="/comment/{{a.id}}/" class="fa fa-comment"></a></li>
+                    {% if a.online %}
+                    <li class="item-doc-li">
+                      <a href="#" class="show-modal-form-online-doc fa fa-calendar2 item-doc" data-init="{{a.name}}" title="Онлайн запись к этому доктору"></a>
+                    </li>
+                    {% endif %}
                 </ul>
               </div>
             </div>
@@ -99,7 +105,7 @@ width:100%;
 <div class="grid-row">
 {% comment %} Вывод Информации по докторам {% endcomment %}
 {% for a in doc %}
-  <section  class="widget news news-{{a.id}}">
+  <!--<section  class="widget news news-{{a.id}}">
     <div class="grid">
         <div class="item" style="width:100%">
         <a class="anchor" id="{{a.id}}"  name="{{a.id}}"></a>
@@ -126,7 +132,7 @@ width:100%;
 
         </div>
       </div>
-  </section>
+  </section>-->
   {% endfor %}
 </div>
 

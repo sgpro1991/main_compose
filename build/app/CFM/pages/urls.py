@@ -9,7 +9,7 @@ urlpatterns = [
     #url(r'^robots+\.txt', Robots),
     #url(r'^landing/', Landing),
     url(r'^logo/', LogoOg),
-
+    url(r'^doctors/(?P<sid>\d+)/$', DocktorsItem),
     url(r'^personal-data/', PersonalData),
     url(r'^doctors+\.html/', Docktors),
     url(r'^questions+\.html/', Questions),

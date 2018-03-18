@@ -15,7 +15,7 @@ width:100% !important;
 
 <div class="widget-title">Связаться с Нами</div>
 
-<script src="/static/js/A_capcha.js"></script>
+
 <form action="/form/communication/" method="POST" id="form_main"  name="contactform">
 
 	                  {% csrf_token %}
@@ -41,7 +41,7 @@ width:100% !important;
 										<div class="clearfix">
 												<div class="input">
 													<label>Номер телефона</label>
-													<input type="tel" id="phone_mask" name="phoneOnline" required>
+													<input type="tel" class="phone_mask" name="phoneOnline" required>
 												</div>
 		                </div>
 

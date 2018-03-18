@@ -1,6 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
         <br>
+
+<style>
+.news .widget-title{
+  text-align: left;
+}
+
+</style>
+
 <main class="page-content vc_responsive">
 
 				<div class="grid-row">
@@ -8,13 +16,10 @@
 						<section style="overflow:auto;">
               <br>
               <div class="news" style="height: auto;border: none;box-shadow: none;">
-              <div class="date">{{news.title}}<span></span></div>
+              <h1 class="widget-title">{{news.title}}</h1>
               </div>
               <br>
-
                 {{news.text|safe}}
-
-                       <!--<script id="7BPsWZlZXeUfqGBg">if (window.relap) window.relap.ar('7BPsWZlZXeUfqGBg');</script>-->
             </section>
         </div>
       </div>

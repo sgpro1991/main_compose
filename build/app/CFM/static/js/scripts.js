@@ -1,6 +1,41 @@
 	$(document).ready(function (){
 
 
+$('.show-modal-form-online').click(function(){
+	$('.close-modal-form-online-textarea').val('')
+	$('.modal-form-online').fadeIn(600)
+})
+
+
+$('.show-modal-form-online-doc').click(function(){
+	$('.close-modal-form-online-textarea').val('Прошу записать меня к '+$(this).attr('data-init'))
+	$('.modal-form-online').fadeIn(600)
+})
+
+
+
+$('#close-modal-form-online').click(function(){
+	$('.modal-form-online').fadeOut(600)
+})
+
+
+
+var datepicker = $('.datepicker').pikaday({
+		firstDay: 1,
+		minDate: moment().add('d', 2).toDate(),
+		maxDate: new Date('2020-12-31'),
+		yearRange: [2000,2020],
+		i18n: {
+		previousMonth : 'Пред Месяц',
+		nextMonth     : 'След Месяц',
+		months        : ['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+		weekdays      : ['Воскресенье','Понедельник','Вторник','Среда','Четверг','Пятница','Суббота'],
+		weekdaysShort : ['Вс','Пн','Вт','Ср','Чт','Пт','Сб']
+	}
+});
+
+
+
 		//alert($('#recaptcha-anchor').is( ":checked" ))
 
 
@@ -19,10 +54,10 @@
 		})
 
 
-		$("#phone_mask").mask("+7 999-999-9999");
+		$(".phone_mask").mask("+7 999-999-9999");
 
 
-	  $("#phone_mask").on("blur", function() {
+	  $(".phone_mask").on("blur", function() {
 	      var last = $(this).val().substr( $(this).val().indexOf("-") + 1 );
 
 	      if( last.length == 5 ) {
@@ -358,7 +393,7 @@ $(function()
 
 	/**/
 	/* slider */
-	/**/
+
      $("#slider").layerSlider({
             width : '100%',
             height : '680px',
