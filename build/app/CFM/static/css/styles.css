@@ -162,6 +162,7 @@ transition: all;
 	z-index: 1;
 	top: 0;
 	right: 0;
+        font-family: inherit;
 	width: 50px;
 	height: 50px;
 	font-size: 24px;
