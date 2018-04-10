@@ -1,848 +1,1004 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.cfm.ru/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.9</priority>
 	</url>
 	<url>
-		<loc>https://www.cfm.ru/favicon.ico</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/kids/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/stock/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/infertility.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/operation.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/btp.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/beremenost.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/kids/kids-services.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/personal-data/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.cfm.ru/donor.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.cfm.ru/magnitogorsk.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/kurgan.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/chelyabinsk.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/services.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/services-kyrgan.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/services-magnitogorsk.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/services-chelyabinsk.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/news/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/photo.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/contacts.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/services.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/services-kyrgan.html</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/services-magnitogorsk.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/services-chelyabinsk.html/</loc>
-		<lastmod>2017-06-27</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.cfm.ru/news/53/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/kids/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.cfm.ru/onas.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.cfm.ru/doctors.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/photo.html/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.cfm.ru/eco.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.cfm.ru/online.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/services.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/services-kyrgan.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/services-magnitogorsk.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/services-chelyabinsk.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/news/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/news/53/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/beremenost.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/infertility.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/surgery/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/polyclinic-department/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.cfm.ru/docs.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.cfm.ru/questions.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.cfm.ru/testimonials/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/online.html/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.cfm.ru/vacancies.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.cfm.ru/online.html</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/info/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.cfm.ru/static/img/fancybox_sprite_2x.png</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/kids/kids-news/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.cfm.ru/static/img/fancybox_loading_2x.gif</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/kids/kids-photo.html</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.cfm.ru/static/img/blue/last-news_2x.png</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/kids/testimonials/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/static/img/blue/location_2x.png</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/2/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/static/img/blue/recent-posts_2x.png</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/2/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/static/img/blue/work-time_2x.png</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/5/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/static/images/twitter_bird.png</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/5/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/kids-services.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/6/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/kids-news/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/6/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/kids-photo.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/19/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/testimonials/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/19/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/contacts.html</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/15/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/12/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/15/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/10/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/61/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/1/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/61/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/9/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/11/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/2/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/11/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/8/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/13/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/7/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/13/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/6/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/64/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/5/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/64/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/stock/4/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/14/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/upload/Documents/analyze.pdf</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/14/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/online/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/12/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/magnitogorsk.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/12/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kurgan.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/8/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/chelyabinsk.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/8/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/photo.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/17/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/anketa/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/17/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/news/65/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/20/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/news/64/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/20/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/news/63/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/24/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/news/62/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/24/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/news/61/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/23/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/news/60/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/23/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/static/img/green/last-news_2x.png</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/58/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/static/img/green/recent-posts_2x.png</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/58/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/static/img/green/work-time_2x.png</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/21/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/contacts.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/21/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/kids-photo.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/34/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/kids-news/?id=5</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/34/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/kids-news/?id=4</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/22/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/kids-news/?id=3</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/22/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/kids-news/?id=2</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/60/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/kids-news/?id=1</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/60/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/kids/contacts.html/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/27/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/send_email/?docemail=portnov@cfm.ru</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/27/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/1/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/28/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/send_email/?docemail=balezin@cfm.ru</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/28/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/2/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/29/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/send_email/?docemail=elena.mayasina@cfm.ru</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/29/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/3/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/30/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/4/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/30/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/16/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/32/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/send_email/?docemail=yakovlev@cfm.ru</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/32/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/6/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/31/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/7/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/31/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/8/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/25/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/9/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/25/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/10/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/37/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/11/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/37/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/12/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/38/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/13/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/38/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/14/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/62/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/15/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/62/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/send_email/?docemail=remizov@cfm.ru</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/63/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/5/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/63/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/17/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/59/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/20/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/59/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/18/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/40/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/34/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/40/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/58/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/41/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/21/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/41/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/19/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/42/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/22/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/42/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/23/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/45/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/24/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/45/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/25/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/66/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/26/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/66/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/27/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/44/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/28/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/44/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/29/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/43/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/30/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/43/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/31/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/46/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/32/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/46/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/36/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/47/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/37/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/47/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/38/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/49/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/33/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/49/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/39/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/48/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/40/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/48/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/41/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/50/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/42/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/50/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/43/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/53/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/44/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/53/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/45/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/52/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/46/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/52/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/47/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/54/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/48/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/54/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/49/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/55/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/50/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/55/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/51/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/doctors/56/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/52/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/comment/56/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/53/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/magnitogorsk.html/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/54/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/kurgan.html/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/55/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/chelyabinsk.html/</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://cfm.ru/comment/56/</loc>
-		<lastmod>2017-06-27</lastmod>
+		<loc>https://www.cfm.ru/stock/16/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/15/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/13/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/14/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/12/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/10/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/1/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/9/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/2/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/stock/8/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/news/106/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/news/105/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/news/104/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/news/103/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/news/102/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/news/101/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/contacts.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-photo.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/contacts.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/male_factor/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/female_factor/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/btp.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/anketa/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-services.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/programs.html/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/online-kids/</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=19</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=18</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=17</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=16</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=15</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=14</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=13</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=12</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=11</loc>
+		<lastmod>2018-04-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://www.cfm.ru/kids/kids-news/?id=10</loc>
+		<lastmod>2018-04-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
