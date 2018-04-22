@@ -13,12 +13,12 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url,include
+from django.conf.urls import url,include,handler404
 from django.contrib import admin
 
 from django.conf.urls.static import static
 from cfm import settings
-
+from pages.views import error404
 
 
 
@@ -34,4 +34,4 @@ urlpatterns = [
     url(r'^filer/', include('filer.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-#handler404='pages.views.views404'
+#handler404 = error404

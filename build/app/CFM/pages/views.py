@@ -99,8 +99,8 @@ def Landing(request):
     return render(request,'landing.html')
 
 
-def views404(request):
-     return redirect('/')
+def error404(request):
+    return render(request,'404.html')
 
 
 
