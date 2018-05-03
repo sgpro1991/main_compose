@@ -394,52 +394,7 @@ $(function()
 	/**/
 	/* slider */
 
-     $("#slider").layerSlider({
-            width : '100%',
-            height : '680px',
-            responsive : true,
-            responsiveUnder : 1920,
-            sublayerContainer : 1920,
-            autoStart : true,
-            pauseOnHover : true,
-            firstLayer : 1,
-            animateFirstLayer : true,
-            randomSlideshow : false,
-            twoWaySlideshow : true,
-            loops : 0,
-            forceLoopNum : true,
-            autoPlayVideos : true,
-            autoPauseSlideshow : 'auto',
-            touchNav : true,
-            skin : 'fullwidth',
-            skinsPath : 'css/',
-            navPrevNext : false,
-            showBarTimer : false,
-            showCircleTimer : true,
-            thumbnailNavigation : 'disabled',
-            imgPreload : true,
-            yourLogoLink : false,
-            yourLogoTarget : '_self',
-            cbInit : function(element) { },
-            cbStart : function(data) { },
-            cbStop : function(data) { },
-            cbPause : function(data) { },
-            cbAnimStart : function(data) { },
-            cbAnimStop : function(data) { },
-            cbPrev : function(data) { },
-            cbNext : function(data) { }
-        });
 
-	$('#slider .next').on('click', function()
-	{
-		$('#slider').layerSlider('next');
-		return false;
-	});
-	$('#slider .prev').on('click', function()
-	{
-		$('#slider').layerSlider('prev');
-		return false;
-	});
 
 
 	/**/

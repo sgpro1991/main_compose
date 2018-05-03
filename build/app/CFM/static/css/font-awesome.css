@@ -897,7 +897,7 @@ content: "\f073";
   width: 100px;
   background: url('/static/img/sprite.PNG')no-repeat;
   height: 100px;
-  margin: 10px 0;
+  margin: -6px 0;
   overflow: hidden;
   background-position: -379px -96px;
 }
