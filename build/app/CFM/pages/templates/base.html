@@ -108,7 +108,7 @@
 							<input class="phone_mask" type="tel" name="phoneOnline" placeholder="телефонный номер">
 							<i class="fa fa-phone"></i>
 						</div>
-						<div class="row">
+						<div class="row mobile-none">
 							<input type="email" name="emailOnline" placeholder="электронная почта" required>
 							<i class="fa fa-envelope"></i>
 						</div>
@@ -123,13 +123,13 @@
 																</select>
 							<i class="fa fa-question"></i>
 						</div>
-						<div class="row">
+						<div class="row mobile-none">
 							<textarea cols="30" class="close-modal-form-online-textarea" rows="5" name="messageOnline" placeholder="Сообщение"></textarea>
 							<i class="fa fa-align-left"></i>
 						</div>
 						<div class="row">
 
-						<input type="checkbox" required="" style="float:left" id="foo_baz"><label style="margin:18px 25px;" for="foo_baz">Согласен на обработку персональных данных <a href="/personal-data/">подробнее...</a> </label>
+						<input type="checkbox" checked="checked" required="" style="float:left" id="foo_baz"><label style="margin:18px 25px;" for="foo_baz">Согласен на обработку персональных данных <a href="/personal-data/">подробнее...</a> </label>
 					</div>
 						<div id="capcha-checker">
 							<div class="g-recaptcha" data-sitekey="6LdayAoTAAAAADYA_56ueMMcmPGGc5I14d32rd3l"></div>
@@ -195,18 +195,22 @@
   							<a href="../ru-pediatrics/index.php"><img src="/static/img/logotext.png" width="250" height="109" alt="UCM"></a>
   						</div>
   					</section>
-  					<section id="logo2" class="logo2">
-  						<div>
-  							<a href="/"><img src="/static/img/logo.png"  width="134" height="109" alt="UCM"></a>
-  						</div>
-  					</section>
+
   					<section id="logo3" class="logo3">
   						<div>
   							<a href="../ru-pediatrics/index.php "><img src="/static/img/logotext.png" width="200" height="59" alt="UCM"></a>
   						</div>
   					</section>
 
+
   				<!--/ logo -->
+					<section id="logo2" class="logo2 mobile-none">
+						<div>
+							<a href="/"><img src="/static/img/logo.png"  width="134" height="109" alt="UCM"></a>
+						</div>
+					</section>
+
+
 
   				<!-- main nav -->
   				<nav class="main-nav">
@@ -272,9 +276,12 @@
 
   				<!-- mobile nav -->
   				<nav id="mobile-main-nav" class="mobile-main-nav">
-  					<i class="fa fa-bars"></i><a href="#" class="opener">Навигация</a>
+  					<i class="fa fa-bars"></i><a href="#" class="opener">Меню</a>
   					<ul>
 
+							<li>
+								<a style="background:#fff;text-align:center" href="/"><img style="width:100px;height:60px;margin:10px 0;" src="/static/img/logo.png"  width="134" height="109" alt="UCM"></a>
+							</li>
 							<li>
 								<i></i><a class="opener">Клиника</a>
 
