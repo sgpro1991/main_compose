@@ -68,13 +68,13 @@ a {
 	background: #f5d75b;
 }
 .main-nav li li:hover > a {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 .main-nav li li li:hover > a, .main-nav li li li > .active {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .main-nav .text .more {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .main-nav .text .more:hover {
 	background: #f5d75b;
@@ -85,16 +85,18 @@ a {
 /* mobile main nav */
 /**/
 .mobile-main-nav a {
-	background: #f1c40f;
+	/*background: #f1c40f; */
+	background: #fff;
 }
 .mobile-main-nav li li a {
-	background: #f5d75b;
+	/*background: #f5d75b;*/
+	background: #fff;
 }
 .mobile-main-nav .text {
 	background: #f5d75b;
 }
 .mobile-main-nav .text .more {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .mobile-main-nav .text .more:hover {
 	background: #f5d75b;
@@ -124,7 +126,7 @@ a {
 	color: #f1c40f;
 }
 .quick-search .switcher {
-	background: url(../img/green/quick-search.png);	
+	background: url(../img/green/quick-search.png);
 }
 
 
@@ -179,10 +181,10 @@ a {
 	opacity: 0.9;
 }
 .benefits .more {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 .benefits .more:hover {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .benefits li:nth-child(even) .pic {
 	/*background: rgba(245,215,91.0.9);	*/
@@ -215,10 +217,10 @@ a {
 	background: #f5d75b;
 }
 .services .more {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .services .more:hover {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 
 
@@ -230,10 +232,10 @@ a {
 	color: #f1c40f;
 }
 .doctors .links a {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .doctors .links a:hover {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 .doctors .item:hover h3,
 .doctors .item:hover p {
@@ -245,16 +247,16 @@ a {
 /* doctors carousel */
 /**/
 .doctors-carousel p {
-	color: #f1c40f;		
+	color: #f1c40f;
 }
 .doctors-carousel .item {
 	border-color: #f1c40f;
 }
 .doctors-carousel .links a {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .doctors-carousel .links a:hover {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 .doctors-carousel .item:hover h3,
 .doctors-carousel .item:hover p {
@@ -266,10 +268,10 @@ a {
 /* timetable */
 /**/
 .timetable header {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .timetable .year {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 .timetable .day .cal {
 	border-left-color: #f1c40f;
@@ -282,13 +284,13 @@ a {
 	color: #f1c40f;
 }
 .timetable .switcher .active {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .timetable .month-view th {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 .timetable .month-view .title {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .timetable .month-view .title + .date {
 	background: #f5d75b
@@ -297,7 +299,7 @@ a {
 	background: #f5d75b
 }
 .timetable .month-view .popup:after {
-	border-top-color: #f5d75b	
+	border-top-color: #f5d75b
 }
 .timetable .month-view .popup .date {
 	background: rgba(255,255,255,0.3);
@@ -327,7 +329,7 @@ a {
 	color: #f1c40f;
 }
 .timetable .list-view td i {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 .timetable .list-view .event-container:hover {
 	background: #f1c40f;
@@ -336,7 +338,7 @@ a {
 	background: #f5d75b
 }
 .timetable .list-view .popup:after {
-	border-top-color: #f5d75b	
+	border-top-color: #f5d75b
 }
 .timetable .mobile-view dt span {
 	border-bottom-color: #f1c40f;
@@ -353,22 +355,22 @@ a {
 	color: #f1c40f;
 }
 .news .date {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .news .date i {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 .news .date span {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 .news .cats .more {
-	background: #f1c40f;		
+	background: #f1c40f;
 }
 .news .cats .more:hover {
 	background: #f5d75b;
 }
 .news .links a {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .news .links a:hover {
 	background: #f5d75b;
@@ -379,16 +381,16 @@ a {
 /* photo tour */
 /**/
 .photo-tour h3 {
-	color: #f1c40f;		
+	color: #f1c40f;
 }
 .photo-tour p {
 	border-color: #f1c40f;
 }
 .photo-tour .links a {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .photo-tour .links a:hover {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 .photo-tour .item:hover h3,
 .photo-tour .item:hover p {
@@ -403,7 +405,7 @@ a {
 	background: #f1c40f;
 }
 .comments .avatar:before {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 
 
@@ -411,16 +413,16 @@ a {
 /* blog post */
 /**/
 .blog-post .date {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .blog-post .date i {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 .blog-post .date span {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 .blog-post .share a {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 
 
@@ -470,7 +472,7 @@ a {
 	color:  #f1c40f;
 }
 .wpb_button.wpb_btn-alt {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 .wpb_button.wpb_btn-alt:hover {
 	background: #f1c40f;
@@ -545,7 +547,7 @@ a {
 }
 .soc-icon.soc-icon-dark.soc-icon-alt:hover {
 	background: #213540;
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 
 
@@ -578,7 +580,7 @@ a {
 .pricing-table .col:hover .price {
 	background: #f5d75b;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.15);
-	color: #fff;	
+	color: #fff;
 }
 .pricing-table .col:hover .listing i {
 	color: #f1c40f;
@@ -617,11 +619,11 @@ a {
 /* services */
 /**/
 .detailed-services dt:hover {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 .detailed-services dt:after,
 .detailed-services dt:before {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .detailed-services dt i {
 	background: #f5d75b;
@@ -656,7 +658,7 @@ a {
 	border-color: #f1c40f;
 }
 .wpb_tabs.wpb_tabs_alt .wpb_tabs_nav li.ui-tabs-active a:after {
-	border-top-color: #f1c40f;	
+	border-top-color: #f1c40f;
 }
 .wpb_tabs.wpb_tabs_alt .wpb_tour_tabs_wrapper .wpb_tab {
 	border-color: #f1c40f;
@@ -694,7 +696,7 @@ a {
 /* toggles */
 /**/
 .wpb_toggle:hover {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 .wpb_toggle:after,
 .wpb_toggle:before {
@@ -742,7 +744,7 @@ a {
 	border-color: #f1c40f;
 }
 .widget-site-search .button:after {
-	border-right-color: #f1c40f;	
+	border-right-color: #f1c40f;
 }
 
 
@@ -753,10 +755,10 @@ a {
 	color: #f1c40f;
 }
 .widget-sevices a.selected{
-	color: #f1c40f;		
+	color: #f1c40f;
 }
 .widget-sevices a:hover {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 
 
@@ -764,7 +766,7 @@ a {
 /* departments */
 /**/
 .widget-departments dt:hover {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 .widget-departments dt i {
 	background: #f5d75b;
@@ -787,7 +789,7 @@ a {
 	background: #f5d75b;
 }
 .widget-appointment i:after,i.appointment:after {
-	border-left-color: #f5d75b; 
+	border-left-color: #f5d75b;
 }
 .widget-appointment .row:nth-child(odd) i,i.appointment:nth-child(odd) {
 	background: #f1c40f;
@@ -818,7 +820,7 @@ a {
 	background: #f5d75b;
 }
 .widget-archives i:after {
-	border-left-color: #f5d75b; 
+	border-left-color: #f5d75b;
 }
 .widget-archives li:nth-child(odd) i {
 	background: #f1c40f;
@@ -827,7 +829,7 @@ a {
 	border-left-color: #f1c40f;
 }
 .widget-archives a:hover {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 
 
@@ -835,7 +837,7 @@ a {
 /* calendar */
 /**/
 .widget-calendar td a:hover {
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 .widget-calendar .ui-datepicker-prev,
 .widget-calendar .ui-datepicker-next {
@@ -843,10 +845,10 @@ a {
 }
 .widget-calendar .ui-datepicker-prev:hover,
 .widget-calendar .ui-datepicker-next:hover {
-	background: #f5d75b;	
+	background: #f5d75b;
 }
 .widget-calendar .ui-datepicker-today a {
-	color: #f1c40f;	
+	color: #f1c40f;
 }
 .widget-calendar .ui-datepicker-today a:after {
 	background: #f1c40f;
@@ -875,7 +877,7 @@ a {
 }
 .widget-contacts dt:before,
 .widget-contacts dt:after{
-	background: #f1c40f;	
+	background: #f1c40f;
 }
 
 /**/

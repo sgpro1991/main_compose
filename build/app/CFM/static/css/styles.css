@@ -1440,7 +1440,7 @@ textarea {
 @media screen and (max-width: 767px) { /* phone */
 	.page-header {
 		height: auto;
-		padding: 20px 0;
+    padding: 20px 0 0 0;
 	}
 	.page-header:after {
 		right: -6px;
@@ -2256,7 +2256,7 @@ nav p{
 	padding-left: 15px;
 	font-size: 15px;
 	line-height: 39px;
-	color: #fff;
+	color: #000;
 }
 .mobile-main-nav i {
 	position: relative;
@@ -2270,6 +2270,7 @@ nav p{
 	line-height: 40px;
 	text-align: center;
 	font-weight: 400;
+  color: #000;
 	cursor: pointer;
 }
 .mobile-main-nav ul {
@@ -2289,7 +2290,7 @@ nav p{
 	left: 19px;
 	width: 1px;
 	height: 17px;
-	background: #fff;
+	background: #000;
 }
 .mobile-main-nav li i:before {
 	top: 19px;
@@ -5119,6 +5120,9 @@ iframe{
 		width: 100%;
 		margin-left: 0;
 	}
+  .button{
+    width: 100%;
+  }
 }
 
 

@@ -62,14 +62,14 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 	background: #4db1e2;
 }
 .branch-selector li li:hover > a {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 .branch-selector li li li:hover > a, .main-nav li li li > .active{
-	background: #008fd5;	
+	background: #008fd5;
 }
 .branch-selector .text .more {
-	background: #008fd5;	
-}
+	background: #008fd5;
+}fff
 .branch-selector .text .more:hover {
 	background: #4db1e2;
 }
@@ -101,13 +101,13 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 	background: #4db1e2;
 }
 .main-nav li li:hover > a {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 .main-nav li li li:hover > a, .main-nav li li li > .active{
-	background: #008fd5;	
+	background: #008fd5;
 }
 .main-nav .text .more {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .main-nav .text .more:hover {
 	background: #4db1e2;
@@ -118,16 +118,18 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 /* mobile main nav */
 /**/
 .mobile-main-nav a {
-	background: #008fd5;
+/*	background: #008fd5;*/
+	background: #fff;
 }
 .mobile-main-nav li li a {
-	background: #4db1e2;
+	/*background: #4db1e2;*/
+	background: #fff;
 }
 .mobile-main-nav .text {
 	background: #4db1e2;
 }
 .mobile-main-nav .text .more {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .mobile-main-nav .text .more:hover {
 	background: #4db1e2;
@@ -157,7 +159,7 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 	color: #008fd5;
 }
 .quick-search .switcher {
-	background: url(../img/blue/quick-search.png);	
+	background: url(../img/blue/quick-search.png);
 }
 
 
@@ -194,19 +196,19 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 /* benefits */
 /**/
 .benefits .pic {
-	background: rgba(0,143,213,0.9);	
+	background: rgba(0,143,213,0.9);
 }
 .benefits .text1 {
 	background: rgba(0,143,213,0.9);
 }
 .benefits .more {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 .benefits .more:hover {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .benefits li:nth-child(even) .pic {
-	background: rgba(77,177,226,0.9);	
+	background: rgba(77,177,226,0.9);
 }
 .benefits li:nth-child(even) .text1 {
 	background: rgba(77,177,226,0.9);
@@ -232,10 +234,10 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 	background: #4db1e2;
 }
 .services .more {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .services .more:hover {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 
 
@@ -247,10 +249,10 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 	color: #008fd5;
 }
 .doctors .links a {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .doctors .links a:hover {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 .doctors .item:hover h3,
 .doctors .item:hover p {
@@ -262,16 +264,16 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 /* doctors carousel */
 /**/
 .doctors-carousel p {
-	color: #008fd5;		
+	color: #008fd5;
 }
 .doctors-carousel .item {
 	border-color: #008fd5;
 }
 .doctors-carousel .links a {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .doctors-carousel .links a:hover {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 .doctors-carousel .item:hover h3,
 .doctors-carousel .item:hover p {
@@ -283,10 +285,10 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 /* timetable */
 /**/
 .timetable header {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .timetable .year {
-	background: #33a5dd;	
+	background: #33a5dd;
 }
 .timetable .day .cal {
 	border-left-color: #008fd5;
@@ -299,13 +301,13 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 	color: #008fd5;
 }
 .timetable .switcher .active {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .timetable .month-view th {
-	color: #008fd5;	
+	color: #008fd5;
 }
 .timetable .month-view .title {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .timetable .month-view .title + .date {
 	background: #4db1e2;
@@ -314,7 +316,7 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 	background: #4db1e2;
 }
 .timetable .month-view .popup:after {
-	border-top-color: #4db1e2;	
+	border-top-color: #4db1e2;
 }
 .timetable .month-view .popup .date {
 	background: rgba(255,255,255,0.3);
@@ -344,7 +346,7 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 	color: #008fd5;
 }
 .timetable .list-view td i {
-	color: #008fd5;	
+	color: #008fd5;
 }
 .timetable .list-view .event-container:hover {
 	background: #008fd5;
@@ -353,7 +355,7 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 	background: #4db1e2;
 }
 .timetable .list-view .popup:after {
-	border-top-color: #4db1e2;	
+	border-top-color: #4db1e2;
 }
 .timetable .mobile-view dt span {
 	border-bottom-color: #008fd5;
@@ -372,22 +374,22 @@ file:///C:/Users/info_000/OneDrive/Customer%20Accounts/CFM/UCM_Concept/services.
 .news .date {
 background: #008fd5;
     opacity: 0.7;
-    border-radius: 2px;	
+    border-radius: 2px;
 }
 .news .date i {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 .news .date span {
-	color: #008fd5;	
+	color: #008fd5;
 }
 .news .cats .more {
-	background: #008fd5;		
+	background: #008fd5;
 }
 .news .cats .more:hover {
 	background: #4db1e2;
 }
 .news .links a {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .news .links a:hover {
 	background: #4db1e2;
@@ -398,16 +400,16 @@ background: #008fd5;
 /* photo tour */
 /**/
 .photo-tour h3 {
-	color: #008fd5;		
+	color: #008fd5;
 }
 .photo-tour p {
 	border-color: #008fd5;
 }
 .photo-tour .links a {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .photo-tour .links a:hover {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 .photo-tour .item:hover h3,
 .photo-tour .item:hover p {
@@ -422,7 +424,7 @@ background: #008fd5;
 	background: #008fd5;
 }
 .comments .avatar:before {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 
 
@@ -430,16 +432,16 @@ background: #008fd5;
 /* blog post */
 /**/
 .blog-post .date {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .blog-post .date i {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 .blog-post .date span {
-	color: #008fd5;	
+	color: #008fd5;
 }
 .blog-post .share a {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 
 
@@ -489,7 +491,7 @@ background: #008fd5;
 	color: #008fd5;
 }
 .wpb_button.wpb_btn-alt {
-	color: #008fd5;	
+	color: #008fd5;
 }
 .wpb_button.wpb_btn-alt:hover {
 	background: #008fd5;
@@ -564,7 +566,7 @@ background: #008fd5;
 }
 .soc-icon.soc-icon-dark.soc-icon-alt:hover {
 	background: #213540;
-	color: #008fd5;	
+	color: #008fd5;
 }
 
 
@@ -597,7 +599,7 @@ background: #008fd5;
 .pricing-table .col:hover .price {
 	background: #4db1e2;
 	text-shadow: 1px 1px 0 rgba(0,0,0,0.15);
-	color: #fff;	
+	color: #fff;
 }
 .pricing-table .col:hover .listing i {
 	color: #008fd5;
@@ -637,11 +639,11 @@ background: #008fd5;
 /* services */
 /**/
 .detailed-services dt:hover {
-	color: #008fd5;	
+	color: #008fd5;
 }
 .detailed-services dt:after,
 .detailed-services dt:before {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .detailed-services dt i {
 	background: #4db1e2;
@@ -676,7 +678,7 @@ background: #008fd5;
 	border-color: #008fd5;
 }
 .wpb_tabs.wpb_tabs_alt .wpb_tabs_nav li.ui-tabs-active a:after {
-	border-top-color: #008fd5;	
+	border-top-color: #008fd5;
 }
 .wpb_tabs.wpb_tabs_alt .wpb_tour_tabs_wrapper .wpb_tab {
 	border-color: #008fd5;
@@ -714,7 +716,7 @@ background: #008fd5;
 /* toggles */
 /**/
 .wpb_toggle:hover {
-	color: #008fd5;	
+	color: #008fd5;
 }
 .wpb_toggle:after,
 .wpb_toggle:before {
@@ -762,7 +764,7 @@ background: #008fd5;
 	border-color: #008fd5;
 }
 .widget-site-search .button:after {
-	border-right-color: #008fd5;	
+	border-right-color: #008fd5;
 }
 
 
@@ -773,10 +775,10 @@ background: #008fd5;
 	color: #008fd5;
 }
 .widget-sevices a.selected{
-	color: #008fd5;		
+	color: #008fd5;
 }
 .widget-sevices a:hover {
-	color: #008fd5;	
+	color: #008fd5;
 }
 
 
@@ -784,7 +786,7 @@ background: #008fd5;
 /* departments */
 /**/
 .widget-departments dt:hover {
-	color: #008fd5;	
+	color: #008fd5;
 }
 .widget-departments dt i {
 	background: #4db1e2;
@@ -807,7 +809,7 @@ background: #008fd5;
 	background: #4db1e2;
 }
 .widget-appointment i:after,i.appointment:after {
-	border-left-color: #4db1e2; 
+	border-left-color: #4db1e2;
 }
 .widget-appointment .row:nth-child(odd) i,i.appointment:nth-child(odd) {
 	background: #008fd5;
@@ -838,7 +840,7 @@ background: #008fd5;
 	background: #4db1e2;
 }
 .widget-archives i:after {
-	border-left-color: #4db1e2; 
+	border-left-color: #4db1e2;
 }
 .widget-archives li:nth-child(odd) i {
 	background: #008fd5;
@@ -847,7 +849,7 @@ background: #008fd5;
 	border-left-color: #008fd5;
 }
 .widget-archives a:hover {
-	color: #008fd5;	
+	color: #008fd5;
 }
 
 
@@ -855,7 +857,7 @@ background: #008fd5;
 /* calendar */
 /**/
 .widget-calendar td a:hover {
-	background: #008fd5;	
+	background: #008fd5;
 }
 .widget-calendar .ui-datepicker-prev,
 .widget-calendar .ui-datepicker-next {
@@ -863,10 +865,10 @@ background: #008fd5;
 }
 .widget-calendar .ui-datepicker-prev:hover,
 .widget-calendar .ui-datepicker-next:hover {
-	background: #4db1e2;	
+	background: #4db1e2;
 }
 .widget-calendar .ui-datepicker-today a {
-	color: #008fd5;	
+	color: #008fd5;
 }
 .widget-calendar .ui-datepicker-today a:after {
 	background: #008fd5;
@@ -896,7 +898,7 @@ background: #008fd5;
 }
 .widget-contacts dt:before,
 .widget-contacts dt:after{
-	background: #008fd5;	
+	background: #008fd5;
 }
 
 
