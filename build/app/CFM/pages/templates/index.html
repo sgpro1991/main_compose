@@ -108,28 +108,28 @@
 
 <div class="counter_box">
 <div class="box_kalk">
-<span class="counter" id="counter_1">0</span><br>
+<span class="counter spincrement" id="counter_1">0</span><br>
 <span class="count_text">Месяцев работы</span>
 </div>
 <div class="box_kalk">
 
-<span class="counter" id="counter_2">0</span><br>
+<span class="counter spincrement" id="counter_2">0</span><br>
 <span class="count_text">Программ ВРТ</span>
 </div>
 
 <div class="box_kalk">
 
-<span class="counter" id="counter_3">0</span><br>
+<span class="counter spincrement" id="counter_3">0</span><br>
 <span class="count_text">Рожденных детей</span>
 </div>
 
 <div class="box_kalk">
-<span class="counter" id="counter_4">0</span><br>
+<span class="counter spincrement" id="counter_4">0</span><br>
 <span class="count_text">Филиала</span>
 </div>
 
 <div class="box_kalk">
-<span class="counter" id="counter_5">0</span><br>
+<span class="counter spincrement" id="counter_5">0</span><br>
 <span class="count_text">Квалифицированных специалистов клиники</span>
 </div>
 
@@ -192,7 +192,7 @@
       console.log(pic)
            $('#banner-center').append('<a target="Blank" href="/donor.html"><img src="ezgif.com-gif-maker (1).gif"/></a>');
       });
-*/
+
       start2 = 0;
       start3 = 0;
       start4 = 0;
@@ -331,18 +331,49 @@
 
       }
 
-
-
-
-
-
+*/
       $(window).scroll(function(){
-      var a = $(this).scrollTop();
+			var a = ($(document).scrollTop())
+				if (a>400 && a<450){
+					$('.spincrement:eq(0)').spincrement({
+						duration:3000,
+						from:0,
+						to:{{count.mon}},
+						thousandSeparator:' ',
+					})
+					$('.spincrement:eq(1)').spincrement({
+						duration:3000,
+						from:0,
+						to:{{count.vrt}},
+						thousandSeparator:' ',
+					})
 
-      INIT_COUNT(a);
+					$('.spincrement:eq(2)').spincrement({
+						duration:3000,
+						from:0,
+						to:{{count.kids}},
+						thousandSeparator:' ',
+					})
+
+					$('.spincrement:eq(3)').spincrement({
+						duration:3000,
+						from:0,
+						to:{{count.filials}},
+						thousandSeparator:' ',
+					})
+
+
+					$('.spincrement:eq(4)').spincrement({
+						duration:3000,
+						from:0,
+						to:{{count.doctors}},
+						thousandSeparator:' ',
+					})
+
+				}
+
 
       });
-
 
       });
 
