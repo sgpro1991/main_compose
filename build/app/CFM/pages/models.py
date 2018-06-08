@@ -214,6 +214,8 @@ class Doctors(models.Model):
 
 
 
+
+
 class Testimonials(models.Model):
     name = models.CharField('Имя', max_length=255)
     date = models.DateField('Дата')
@@ -222,3 +224,41 @@ class Testimonials(models.Model):
     switch = models.BooleanField('Опубликовать')
     class Meta:
          verbose_name_plural = "Отзывы"
+
+
+
+
+
+
+
+
+class CategoryPrice(models.Model):
+    name = models.CharField('Имя', max_length=255)
+    class Meta:
+         verbose_name_plural = "Оплата категория"
+    def __str__(self):              # __unicode__ on Python 2
+        return self.name
+
+
+
+
+class SubCategoryPrice(models.Model):
+    name = models.CharField('Имя', max_length=255)
+    class Meta:
+         verbose_name_plural = "Оплата подкатегория"
+    def __str__(self):              # __unicode__ on Python 2
+        return self.name
+
+
+
+class PriceEkb(models.Model):
+    category =  models.ForeignKey('CategoryPrice')
+    sub_category = models.ForeignKey('SubCategoryPrice')
+    name = models.TextField('Имя')
+    price = models.IntegerField('Цена')
+    link_pyment = models.TextField('ссылка оплаты',blank=True)
+    payment = models.BooleanField('Оплата онлайн', blank=True, default=False)
+    class Meta:
+        verbose_name_plural = "Прайс Екатеринбург"
+    def __str__(self):              # __unicode__ on Python 2
+        return self.name

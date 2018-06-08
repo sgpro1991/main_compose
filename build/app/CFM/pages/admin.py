@@ -45,7 +45,6 @@ admin.site.register(FlatPage, FlatPageCustom)
 
 
 
-
 class FaqAdmin(admin.ModelAdmin):
     list_display = ['question']
 
@@ -113,7 +112,22 @@ class FACTORSAdmin(admin.ModelAdmin):
     list_display = ['type_factors']
 
 
+class PriceEkbAdmin(admin.ModelAdmin):
+    list_display = ['name','price']
+    search_fields = ['name','price']
+    list_filter = ('category','sub_category',)
+    list_editable = ('price',)
+
+
+
+admin.site.register(CategoryPrice)
+admin.site.register(SubCategoryPrice)
+admin.site.register(PriceEkb,PriceEkbAdmin)
+
+
 admin.site.register(FACTORS,FACTORSAdmin)
+
+
 
 
 admin.site.register(Counters,CountersAdmin)
