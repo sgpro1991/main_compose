@@ -15,10 +15,42 @@ from news.models import *
 import requests
 
 from .template_mail import TmpMail
-
 import json
-
 import urllib
+from collections import OrderedDict
+
+
+
+
+def Price_ekb(request):
+    price = PriceEkb.objects.all()
+    category = []
+    sub_category = []
+    for a in price:
+        category.append(a.category.name)
+        sub_category.append(a.sub_category.name)
+
+    category = list(OrderedDict.fromkeys(category))
+    sub_category = list(OrderedDict.fromkeys(sub_category))
+
+    #print(sub_category)
+
+    mass = []
+
+    for a in category:
+        mass.append({'category':a,'data':[]})
+        for b in sub_category:
+            mass[category.index(a)]['data'].append({'sub_category':b,'data':[]})
+            for c in price:
+                if c.category.name == a and c.sub_category.name == b:
+                    mass[category.index(a)]['data'][sub_category.index(b)]['data'].append({'name':c.name,'price':c.price,'link_pyment':c.link_pyment,'payment':c.payment})
+
+
+
+
+    print(mass)
+    #return render(request,'price.html',{'price':price,'category':category})
+    return render(request,'price.html',{'mass':mass,'price':price})
 
 
 

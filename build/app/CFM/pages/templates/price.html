@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+
+<main class="page-content vc_responsive">
+
+    <div class="grid-row">
+	<div style="background:#fff;padding: 20px;margin: 0 auto 20px;max-width:1210px">
+			<section style="overflow:auto;">
+
+        <div class="vc_span6">
+        <div class="wpb_tabs wpb_content_element">
+        <div class="wpb_tour_tabs_wrapper clearfix">
+        <ul class="wpb_tabs_nav clearfix" role="tablist">
+          {% for a in mass %}
+
+
+        <li aria-selected="false" role="tab">
+          <a aria-selected="false" href="#tab-{{forloop.counter}}" role="tab">
+                  {{a.category}}
+              </a>
+            </li>
+
+          {% endfor %}
+        </ul>
+
+
+
+        {% for a in mass %}
+
+          <div class="wpb_tab ui-tabs-panel ui-widget-content ui-corner-bottom" id="tab-{{forloop.counter}}" aria-labelledby="ui-id-{{forloop.counter}}" role="tabpanel" aria-expanded="true" aria-hidden="false" >&nbsp;
+          <section class="detailed-services wpb_content_element">
+
+            {% for i in a.data %}
+
+            {% if i.data %}
+            <dl>
+          	<dt class="closed opened">{{i.sub_category}}</dt>
+          	<dd style="display: block;">
+          	<div class="row">
+          	<div class="col2">
+          	<ul>
+
+          		<li>
+          		    <div class="couchspan">Цена, руб.</div>
+          		    <strong>&nbsp;</strong>
+              </li>
+              {% for c in i.data %}
+          		<li>
+          		<div class="couchspan">{{c.price}}</div>
+          		<strong>{{c.name}}</strong>
+              </li>
+              <strong>&nbsp;</strong>
+              {% endfor %}
+          	</ul>
+          	</div>
+          	</div>
+          	</dd>
+          </dl>
+              {% endif %}
+              {% endfor %}
+          </section>
+        </div>
+    {% endfor %}
+        </div>
+
+ 		  </section>
+	 </div>
+    </div>
+      </div>
+</main>
+
+
+{% endblock %}

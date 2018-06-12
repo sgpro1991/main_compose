@@ -53,6 +53,8 @@ urlpatterns = [
 
     url(r'^anketa/', AnketaF),
 
+    url(r'^price-ekb/', Price_ekb),
+
     url(r'^about_news_all/', AboutNewsAll),
 
     url(r'^form/psyhology/', FormAnketa),

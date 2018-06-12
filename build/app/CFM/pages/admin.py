@@ -113,7 +113,7 @@ class FACTORSAdmin(admin.ModelAdmin):
 
 
 class PriceEkbAdmin(admin.ModelAdmin):
-    list_display = ['name','price']
+    list_display = ['name','category','price']
     search_fields = ['name','price']
     list_filter = ('category','sub_category',)
     list_editable = ('price',)
