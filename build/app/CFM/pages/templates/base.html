@@ -218,7 +218,8 @@
 
 
 							<li>
- 								<a href="#" class="">Клиника</a>
+ 								<a href="#" class="">Клиника <span>+</span></a>
+
  								<ul>
  									<li><a href="/onas.html/">О нас</a></li>
  									<li><a href="/doctors.html/">Наши специалисты</a></li>
@@ -234,7 +235,7 @@
 
 
 
-                <li class="right"><a href="#" class="" >Филиалы</a>
+                <li class="right"><a href="#" class="" >Филиалы <span>+</span></a>
                   <ul>
                     <li><a href="/magnitogorsk.html">Магнитогорск</a></li>
                     <li><a href="/kurgan.html">Курган</a></li>
@@ -243,7 +244,7 @@
                 </li>
 
       					<li>
-      							<a href="#" class="">Cтоимость услуг</a>
+      							<a href="#" class="">Cтоимость услуг <span>+</span></a>
                     <ul>
                       <li><a href="/services.html/">Екатеринбург</a></li>
                       <li><a href="/services-kyrgan.html/">Курган</a></li>
@@ -329,6 +330,47 @@
   					</ul><!--/ end ul -->
   				</nav>
   				<!--/ mobile nav -->
+					<script>
+
+						$(document).ready(function(){
+
+								$(document).scroll(function(e){
+									if($(document).scrollTop() >= 50){
+										$('#mobile-main-nav').css({
+											"position":"fixed",
+											"width":"100%",
+											"margin":"0",
+											"background":"#ffffff",
+											"top":"0",
+											"padding":"10px 20px 0px 10px"
+										})
+
+										$('#mobile-main-nav span').css({
+											"top":"15px",
+											"left": "42%",
+										})
+
+									}else {
+										$('#mobile-main-nav').css({
+											"position":"",
+											"width":"",
+											"margin":"",
+											"background":"",
+											"top":"",
+											"padding":""
+										})
+
+										$('#mobile-main-nav span').css({
+											"top":"70px",
+											"left": "42%",
+										})
+
+									}
+								})
+
+						})
+
+					</script>
   	</header>
 
   <!-- HEADER -->
