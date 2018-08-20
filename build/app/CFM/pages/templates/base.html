@@ -353,7 +353,7 @@
 								$('#select_filial').on('change',function(){
 
 										var val = $(this).val()
-
+										GET_DOC_FILIAL(val)
 								})
 
 
@@ -362,19 +362,17 @@
 								})
 
 								function GET_DOC_FILIAL(val){
-
+									try{
+										$('#slick_box').slick('unslick');
+									}catch(e){
+										console.log(e)
+									}
+									$('#slick_box').empty()
 
 									$.ajax({
 										url:'/get_doc_filial/?dep='+val,
 										dataType:'json',
 										success:function(data){
-
-											try{
-												$('#slick_box').slick('unslick');
-											}catch(e){
-												console.log(e)
-											}
-											$('#slick_box').empty()
 
 
 											$.each(data,function(k,v){
