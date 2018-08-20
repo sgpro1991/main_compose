@@ -175,6 +175,8 @@ transition: all;
 .modal-form-online-box{
 position:relative;
 width:100%;
+overflow: auto;
+height: 860px;
 min-width:300px;
 margin:10px auto;
 padding:10px;
@@ -7826,6 +7828,9 @@ i.appointment{
 		margin: 20px 30px 0;
 		font-size: 14px;
 	}
+  .modal-form-online-box{
+    height: 560px;
+  }
 }
 
 

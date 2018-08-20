@@ -74,6 +74,29 @@ def LogoOg(request):
 
 
 
+
+
+def GetDocFilial(request):
+    mass = []
+    docs = Doctors.objects.filter(city=request.GET.get('dep',''))
+
+    for a in docs:
+        print(a.image1)
+        mass.append({
+            'id':a.id,
+            'name':a.name,
+            'image':str(a.image1),
+            'work_extention':a.work_extention,
+            'work':a.work,
+            'online':a.online,
+
+        })
+
+    return HttpResponse(json.dumps(mass))
+
+
+
+
 def GetDocFemale(request):
     #[3,8,7,9,10,11,13,14,15,16,37,36,42,45,46,47,49,50,52,53]
     mass=[]

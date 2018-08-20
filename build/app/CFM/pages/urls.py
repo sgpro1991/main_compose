@@ -59,6 +59,6 @@ urlpatterns = [
 
     url(r'^form/psyhology/', FormAnketa),
 
-
+    url(r'^get_doc_filial/', GetDocFilial),
 
 ]

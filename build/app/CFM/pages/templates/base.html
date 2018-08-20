@@ -22,7 +22,7 @@
 		<!--/ metas -->
 		<!-- styles -->
     <link rel="stylesheet" type="text/css" href="/static/css/jquery.gritter.css" />
-
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/static/css/font-awesome.min.css">-->
 		<link rel="stylesheet" type="text/css" href="/static/css/slider.css">
     <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
@@ -56,7 +56,7 @@
 		<script type="text/javascript" src="/static/js/lazyload.js"></script>
 
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 <style>
 
@@ -113,17 +113,32 @@
 							<i class="fa fa-envelope"></i>
 						</div>
 						<div class="row">
-							<input class="datepicker" type="text" name="dateOnline" placeholder="Дата назначение"  required>
+							<input class="datepicker2" type="text" name="dateOnline" placeholder="Дата назначение"  required>
 							<i class="fa fa-calendar2"></i>
 						</div>
-														<div class="row">
+
+						<div class="row">
+							<select name="filial" id="select_filial">
+												<option value="1">Филиал Екатеринбурга</option>
+												<option value="2">Филиал Магнитогорска</option>
+												<option value="3">Филиал Кургана</option>
+												<option value="4">Филиал Челябинска</option>
+							</select>
+								<i class="fa fa-map-marker"></i>
+						</div>
+
+						<div id="slick_box" class="doctors">
+
+						</div>
+
+						<div class="row">
 							<select name="dayOnline">
 																		<option value="Первичный прием">Первичный прием</option>
 																		<option value="Повторный прием">Повторный прием</option>
 																</select>
 							<i class="fa fa-question"></i>
 						</div>
-						<div class="row mobile-none">
+						<div class="row">
 							<textarea cols="30" class="close-modal-form-online-textarea" rows="5" name="messageOnline" placeholder="Сообщение"></textarea>
 							<i class="fa fa-align-left"></i>
 						</div>
@@ -135,7 +150,7 @@
 							<div class="g-recaptcha" data-sitekey="6LdayAoTAAAAADYA_56ueMMcmPGGc5I14d32rd3l"></div>
 						</div>
 						<br>
-						<button type="submit" name="submit" class="button" value="Submit">Отправить</button>
+						<button type="submit" name="suhttps://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.jsbmit" class="button" value="Submit">Отправить</button>
 
 						</fieldset>
 					</form>
@@ -333,6 +348,58 @@
 					<script>
 
 						$(document).ready(function(){
+
+							setTimeout(function(){
+									GET_DOC_FILIAL(1)
+							},1800)
+
+
+								$('#select_filial').on('change',function(){
+
+										var val = $(this).val()
+										GET_DOC_FILIAL(val)
+								})
+
+
+								function GET_DOC_FILIAL(val){
+									try{
+										$('#slick_box').slick('unslick');
+									}catch(e){
+										console.log(e)
+									}
+									$('#slick_box').empty()
+
+									$.ajax({
+										url:'/get_doc_filial/?dep='+val,
+										dataType:'json',
+										success:function(data){
+
+
+
+
+											$.each(data,function(k,v){
+
+												//if(v['online'] == true){
+													$('#slick_box').append('<div data-init="'+v['name']+'" class="show-modal-form-online-doc item item1 isotope-item"><div class="pic"><img src="/media/'+v['image']+'" alt="Doctor 1"><div class="links"></div></div><h3>'+v['name']+'</h3><p style="font-size:12px;font-weight:bold;letter-spacing:0.5px;">'+v['work']+'</p></div>')
+
+											//	}
+
+											})
+											$('.show-modal-form-online-doc').click(function(){
+												$('.close-modal-form-online-textarea').val('Прошу записать меня к '+$(this).attr('data-init'))
+												$('.modal-form-online-box').scrollTop(600)
+											})
+
+											$('#slick_box').slick({
+												slidesToShow: 3,
+												slidesToScroll: 4,
+												infinite: true,
+											 // fade: true,
+											});
+
+										}
+									})
+								}
 
 								$(document).scroll(function(e){
 									if($(document).scrollTop() >= 50){
