@@ -78,8 +78,8 @@ def LogoOg(request):
 
 def GetDocFilial(request):
     mass = []
-    docs = Doctors.objects.filter(city=request.GET.get('dep',''))
-
+    docs = Doctors.objects.filter(city=request.GET.get('dep',''),online=True)
+    #docs = Doctors.objects.filter(city=request.GET.get('dep',''))
     for a in docs:
         print(a.image1)
         mass.append({

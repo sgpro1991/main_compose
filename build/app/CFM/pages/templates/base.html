@@ -23,6 +23,7 @@
 		<!-- styles -->
     <link rel="stylesheet" type="text/css" href="/static/css/jquery.gritter.css" />
   	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/static/css/font-awesome.min.css">-->
 		<link rel="stylesheet" type="text/css" href="/static/css/slider.css">
     <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
@@ -109,33 +110,33 @@
 							<i class="fa fa-phone"></i>
 						</div>
 						<div class="row mobile-none">
-							<input type="email" name="emailOnline" placeholder="электронная почта" required>
+							<input type="email" name="emailOnline" value="" placeholder="электронная почта" required style="display:none">
 							<i class="fa fa-envelope"></i>
 						</div>
 						<div class="row">
-							<input class="datepicker2" type="text" name="dateOnline" placeholder="Дата назначение"  required>
+							<input class="datepicker" type="text" name="dateOnline" placeholder="Дата назначение"  required>
 							<i class="fa fa-calendar2"></i>
 						</div>
 
-						<div class="row">
-							<select name="filial" id="select_filial">
+						<!--<div class="row">
+							<select name="filial" class="select_filial">
 												<option value="1">Филиал Екатеринбурга</option>
-												<option value="2">Филиал Магнитогорска</option>
-												<option value="3">Филиал Кургана</option>
+												<option value="2">Филиал Кургана</option>
+												<option value="3">Филиал Магнитогорска</option>
 												<option value="4">Филиал Челябинска</option>
 							</select>
 								<i class="fa fa-map-marker"></i>
 						</div>
 
-						<div id="slick_box" class="doctors">
+						<div id="slick_box" class="doctors slick_box">
 
-						</div>
+						</div>-->
 
 						<div class="row">
 							<select name="dayOnline">
-																		<option value="Первичный прием">Первичный прием</option>
-																		<option value="Повторный прием">Повторный прием</option>
-																</select>
+									<option value="Первичный прием">Первичный прием</option>
+									<option value="Повторный прием">Повторный прием</option>
+							</select>
 							<i class="fa fa-question"></i>
 						</div>
 						<div class="row">
@@ -349,8 +350,8 @@
 
 						$(document).ready(function(){
 
-
-								$('#select_filial').on('change',function(){
+							GET_DOC_FILIAL(1)
+								$('.select_filial').on('change',function(){
 
 										var val = $(this).val()
 										GET_DOC_FILIAL(val)
@@ -363,11 +364,11 @@
 
 								function GET_DOC_FILIAL(val){
 									try{
-										$('#slick_box').slick('unslick');
+										$('.slick_box').slick('unslick');
 									}catch(e){
 										console.log(e)
 									}
-									$('#slick_box').empty()
+									$('.slick_box').empty()
 
 									$.ajax({
 										url:'/get_doc_filial/?dep='+val,
@@ -377,22 +378,22 @@
 
 											$.each(data,function(k,v){
 
-												if(v['online'] == true){
-													$('#slick_box').append('<div data-init="'+v['name']+'" class="show-modal-form-online-doc item item1 isotope-item"><div class="pic"><img src="/media/'+v['image']+'" alt="Doctor 1"><div class="links"></div></div><h3>'+v['name']+'</h3><p style="font-size:12px;font-weight:bold;letter-spacing:0.5px;">'+v['work']+'</p></div>')
-
-												}
+													$('.slick_box').append('<div data-init="'+v['name']+'" class="show-modal-form-online-doc item item1 isotope-item"><div class="pic"><img src="/media/'+v['image']+'" alt="Doctor 1"><div class="links"></div></div><h3>'+v['name']+'</h3><p style="font-size:12px;font-weight:bold;letter-spacing:0.5px;">'+v['work']+'</p></div>')
 
 											})
+
 											$('.show-modal-form-online-doc').click(function(){
 												$('.close-modal-form-online-textarea').val('Прошу записать меня к '+$(this).attr('data-init'))
 												$('.modal-form-online-box').scrollTop(600)
 											})
 
-											$('#slick_box').slick({
-												slidesToShow: 3,
+											$('.slick_box').slick({
+												slidesToShow: 5,
 												slidesToScroll: 4,
-												infinite: true,
+												//infinite: true,
 											 // fade: true,
+											  //centerMode: true,
+											  dots: true,
 											});
 
 										}
@@ -422,7 +423,7 @@
 											"margin":"",
 											"background":"",
 											"top":"",
-											"padding":""
+											"padding":"												}"
 										})
 
 										$('#mobile-main-nav span').css({
@@ -578,7 +579,7 @@ $(document).ready(function(){
 
       <!-- copyrights -->
 <div class="copyrights">© «Центр семейной медицины»<br/>
-  <a target="_blank" href="http://cfm.ru/static/upload/Documents/license.pdf">ЛИЦЕНЗИЯ ЛО-66-01-004087 от 09.06.2016</a>
+  <a target="_blank" href="http://cfm.ru/static/upload/Documents/license.pdf">ЛИЦЕНЗИЯ ЛО-66-01-005543 от 20.08.2018</a>
   <div style="font-size:10px;">Все права на материалы сайта cfm.ru принадлежат АО "Центр семейной медицины". Полное  или частичное воспроизведение материалов возможно только по письменному разрешению правообладателя.</div>
 </div>
 <!--/ copyrights -->			<!--/ page footer -->
