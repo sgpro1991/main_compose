@@ -19,6 +19,7 @@ urlpatterns = [
     url(r'^female_factor/', FemaleFactor),
 
     url(r'^get_doc/male/', GetDocMale),
+    url(r'^get_doc/beremenost/', GetDocBeremenost),
     url(r'^get_doc/female/', GetDocFemale),
     url(r'^get_doc/politics/', GetPolitics),
     url(r'^get_testimonials/', GetTestimonialsOnline),

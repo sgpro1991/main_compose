@@ -60,11 +60,11 @@ class SliderAdmin(admin.ModelAdmin):
 
 
 class DoctorsAdmin(admin.ModelAdmin):
-    list_display = ['name', 'image_tag1','sortdoc']
+    list_display = ['name', 'image_tag1','sortdoc','online']
     search_fields = ['name']
     list_filter = ['city']
     readonly_fields = ('image_tag1','image_tag2','image_tag3','image_tag4',)
-    list_editable = ('sortdoc',)
+    list_editable = ('sortdoc','online')
 
 
 

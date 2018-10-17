@@ -107,6 +107,14 @@ def GetDocFemale(request):
     return HttpResponse(json.dumps(mass))
 
 
+def GetDocBeremenost(request):
+    mass=[]
+    doc = Doctors.objects.filter(pk__in=[37,40])
+    for a in doc:
+        mass.append({'id':a.id,'name':a.name,'image':str(a.image1),'work':a.work})
+
+    return HttpResponse(json.dumps(mass))
+
 
 def GetTestimonialsOnline(request):
     mass=[]
@@ -121,7 +129,7 @@ def GetTestimonialsOnline(request):
 def GetPolitics(request):
     #37,38,16,36,40,39,15,17,20,18,34,58,21,22,23,24,55,52,53,50
     mass=[]
-    doc = Doctors.objects.filter(pk__in=[37,16,36,40,39,15,17,20,18,34,58,21,22,23,24,55,52,53,50]).order_by('?')[:4]
+    doc = Doctors.objects.filter(pk__in=[5,6,19]).order_by('?')[:4]
     for a in doc:
         mass.append({'id':a.id,'name':a.name,'image':str(a.image1),'work':a.work})
 
