@@ -1,0 +1,36 @@
+.mobile_show_content:before{
+  right: 0;
+  content: "блок для мобильной версии";
+  position: absolute !important;
+  color: #ef6262 !important;
+  font-size: 10px;
+  /* left: 37%; */
+  padding: 5px;
+  background: cornsilk;
+  margin: 4px;
+  top: -25px;
+}
+.mobile_show_content{
+  position: relative;
+  border: 1px solid #f00;
+  padding: 15px
+}
+
+
+.monitor_show_content:before{
+  right: 0;
+  content: "блок для монитора";
+  position: absolute !important;
+  color: #ffffff !important;
+  font-size: 10px;
+  /* left: 37%; */
+  padding: 5px;
+  background: #7aa700;
+  margin: 4px;
+  top: -25px;
+}
+.monitor_show_content{
+  position: relative;
+  border: 1px solid #7aa700;
+  padding: 15px
+}
