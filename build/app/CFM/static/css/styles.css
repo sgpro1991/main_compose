@@ -1609,9 +1609,40 @@ textarea {
 		margin-left: -340px;
 	}
 }
+.mobile_show_content{
+  display: none !important;
+}
+
+.mobile_show_content ul {
+  display: none !important;
+}
+
+
+.monitor_show_content{
+  display: block !important;
+}
 
 /* phone */
 @media screen and (max-width: 767px) {
+
+.monitor_show_content{
+  display: none !important;
+}
+
+
+.monitor_show_content ul{
+  display: none !important;
+}
+
+
+.mobile_show_content{
+  display: block !important;
+  li
+}
+.mobile_show_content ul {
+  display: block !important;
+}
+
 	.logo2 {
         width: 100%;
 		position: static;
