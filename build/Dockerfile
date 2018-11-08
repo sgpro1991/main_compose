@@ -20,3 +20,4 @@ EXPOSE 8000
 ADD app/CFM app/
 WORKDIR /app
 ENTRYPOINT /docker-entrypoint.sh
+#docker-compose -f docker-compose.yml -f docker-compose.dev.yml up --build

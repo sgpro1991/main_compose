@@ -45,7 +45,7 @@ var datepicker = $('.datepicker').pikaday({
 			var response = grecaptcha.getResponse();
 
 			if(response != ''){
-
+				$('#form_main').submit()
 			}else{
 				$('#capcha-checker').css({'box-shadow': '0px 0px 0px 3px #f00','width':'302px'})
 				e.preventDefault()
