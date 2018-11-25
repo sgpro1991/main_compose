@@ -1597,7 +1597,13 @@ textarea {
 		margin-left: -775px;
 	}
 
+.site-switcher:hover{
+  cursor: pointer;
+}
 
+.on_see{
+      border: 2px solid;
+}
 
 	.logo2 {
 		/*margin-left: -470px;*/

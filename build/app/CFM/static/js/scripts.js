@@ -1,6 +1,73 @@
 	$(document).ready(function (){
 
 
+
+function BAD_SEE(){
+	$('.main-nav').css({'right':'68%'})
+	$(".main-nav li a").css({'color':'#000000 !important','font-size':'16px'})
+	$(".branch-selector").css({'color':'#000000 !important','background':'#fff'})
+	$("a").css({'color':'#000000 !important','background':'#fff'})
+	$(".site-switcher").css({'color':'#000000 !important','background':'#fff'})
+	$(".branch-selector-text").css({'color':'#000000 !important','background':'#fff','top':'5px'})
+	$(".counter").css({'color':'#000000 !important'})
+	$('.benefits .pic').css({'background':'#000000 !important'})
+	$('footer').css({'background':'#ffffff'})
+	$('p').css({'color':'#000000','font-size': '20px'})
+	$('a').css({'color':'#000000 !important','font-weight':'bold','font-size':'18px'})
+	$('.copyrights').css({'background':'#ffffff'})
+	$('.page').css({'background':'#ffffff'})
+
+	$('.detailed-services').css({'font-size':'20px'})
+	$(".main-nav li ul a").hover(function(){
+		$(this).css({'background':'#ffffff !important'})
+	})
+}
+
+
+if(localStorage.getItem('see_bad') === '1'){
+$('#bad_see').addClass("on_see")
+BAD_SEE()
+}
+
+
+
+$('#bad_see').click(function(){
+	if($(this).hasClass('on_see')===true){
+		localStorage.setItem('see_bad', 2);
+		$('.main-nav').css({'right':''})
+		$(".main-nav li a").css({'color':'','font-size':''})
+		$(".branch-selector").css({'color':'','background':''})
+		$("a").css({'color':'','background':''})
+		$(".site-switcher").css({'color':'','background':''})
+		$(".branch-selector-text").css({'color':'','background':'','top':''})
+		$(".counter").css({'color':''})
+		$('.benefits .pic').css({'background':''})
+		$('footer').css({'background':''})
+		$('p').css({'color':'','font-size': ''})
+		$('a').css({'color':'','font-weight':'bold','font-size':''})
+		$('.copyrights').css({'background':''})
+		$('.page').css({'background':''})
+
+
+			$('.detailed-services').css({'font-size':''})
+		$(".main-nav li ul a").hover(function(){
+			$(this).css({'background':''})
+		})
+		$('#bad_see').removeClass("on_see")
+	}else{
+		localStorage.setItem('see_bad', 1);
+		BAD_SEE()
+		$('#bad_see').addClass("on_see")
+	}
+
+})
+
+
+
+
+
+
+
 $('.show-modal-form-online').click(function(){
 	$('.close-modal-form-online-textarea').val('')
 	$('.modal-form-online').fadeIn(600)
