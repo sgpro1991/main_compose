@@ -1513,7 +1513,7 @@ textarea {
 	display: inline-block;
 	width: 100%;
   max-width: 70px;
-  max-height: 50px;
+  max-height: 64px;
 }
 .logo img:hover {
     opacity: 1.0;
