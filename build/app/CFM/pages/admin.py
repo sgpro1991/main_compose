@@ -76,10 +76,10 @@ class MessagesAdmin(admin.ModelAdmin):
 
 
 class RecordOnlineAdmin(admin.ModelAdmin):
-    list_display = ['name','datetime','phone','datetime_record','doc','control','itog']
+    list_display = ['name','datetime','phone','city','datetime_record','doc','control','itog']
     search_fields = ['name']
     list_filter = ['control','itog','datetime_record']
-    list_editable = ('control','datetime_record','doc','itog')
+    list_editable = ('control','datetime_record','doc','city','itog')
 
 
 

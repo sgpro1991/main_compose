@@ -617,12 +617,14 @@ def FormOnline(request):
     else:
         date = '1970-01-01'
 
+
+    filial = request.POST['filial']
     priem = request.POST['dayOnline']
     message = request.POST['messageOnline']
     insert = Messages(type_message=1,name=name,phone=phone,post=post,dateOnline=date,priem=priem,city="Отсутствует",message=message,datetime=datetime.now())
     insert.save()
 
-    insert_record = RecordOnline(name=name,phone=phone,post=post,dateOnline=date,priem=priem,message=message,datetime=datetime.now())
+    insert_record = RecordOnline(name=name,phone=phone,post=post,city=filial,dateOnline=date,priem=priem,message=message,datetime=datetime.now())
 
     insert_record.save()
 

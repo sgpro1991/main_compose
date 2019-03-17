@@ -151,6 +151,7 @@ class RecordOnline(models.Model):
     datetime_record = models.DateTimeField('Записать на ',blank=True,null=True, default=None)
     doc = models.CharField('К Доктору', blank=True,max_length=255)
     control = models.BooleanField('Не дозвонились', blank=True, default=False)
+    city = models.CharField('филиал',max_length=255, blank=True, null=True)
     itog = models.BooleanField('Заявка обработана', blank=True, default=False)
     class Meta:
          verbose_name_plural = "Запись"
